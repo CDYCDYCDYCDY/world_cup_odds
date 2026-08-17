@@ -1,0 +1,104 @@
+﻿event_id,title,home_team,away_team,underdog,home_fifa_ranking,away_fifa_ranking,rank_diff,spread_key,spread_label,bet_side,no_price,odds,no_quality,settled_yes,hit,stake,net,cum_net,kickoff_beijing,final_score,result_regular,competition_phase,group_matchday,stage
+351715,Mexico vs. South Africa,Mexico,South Africa,South Africa,14,60,46,home_15,主让1.5,no,0.6,1.6667,medium,1,N,100,-100,-100,2026-06-12 03:00,2-0,home,group,1,group-stage
+351716,Korea Republic vs. Czechia,Korea Republic,Czechia,Czechia,25,40,15,home_15,主让1.5,no,0.84,1.1905,medium,0,Y,100,19.05,-80.95,2026-06-12 10:00,2-1,home,group,1,group-stage
+351717,Canada vs. Bosnia-Herzegovina,Canada,Bosnia-Herzegovina,Bosnia-Herzegovina,30,64,34,home_15,主让1.5,no,0.74,1.3514,high,0,Y,100,35.14,-45.81,2026-06-13 03:00,1-1,draw,group,1,group-stage
+351718,United States vs. Paraguay,United States,Paraguay,Paraguay,17,41,24,home_15,主让1.5,no,0.77915462,1.2834,fair,1,N,100,-100,-145.81,2026-06-13 09:00,4-1,home,group,1,group-stage
+351719,Qatar vs. Switzerland,Qatar,Switzerland,Qatar,56,19,37,away_15,客让1.5(主受让1.5),no,0.4,2.5,medium,0,Y,100,150.0,4.19,2026-06-14 03:00,1-1,draw,group,1,group-stage
+351720,Brazil vs. Morocco,Brazil,Morocco,Morocco,6,7,1,home_15,主让1.5,no,0.69998791,1.4286,fair,0,Y,100,42.86,47.05,2026-06-14 06:00,1-1,draw,group,1,group-stage
+351721,Haiti vs. Scotland,Haiti,Scotland,Haiti,83,42,41,away_15,客让1.5(主受让1.5),no,0.61,1.6393,medium,0,Y,100,63.93,110.98,2026-06-14 09:00,0-1,away,group,1,group-stage
+351722,Australia vs. Türkiye,Australia,Türkiye,Australia,27,22,5,away_15,客让1.5(主受让1.5),no,0.68999999,1.4493,high,0,Y,100,44.93,155.91,2026-06-14 12:00,2-0,home,group,1,group-stage
+351723,Germany vs. Curaçao,Germany,Curaçao,Curaçao,10,82,72,home_15,主让1.5,no,0.13,7.6923,medium,1,N,100,-100,55.91,2026-06-15 01:00,7-1,home,group,1,group-stage
+351724,Netherlands vs. Japan,Netherlands,Japan,Japan,8,18,10,home_15,主让1.5,no,0.7699863,1.2987,high,0,Y,100,29.87,85.78,2026-06-15 04:00,2-2,draw,group,1,group-stage
+351725,Côte d'Ivoire vs. Ecuador,Côte d'Ivoire,Ecuador,Côte d'Ivoire,33,23,10,away_15,客让1.5(主受让1.5),no,0.8493632,1.1774,high,0,Y,100,17.74,103.52,2026-06-15 07:00,1-0,home,group,1,group-stage
+351726,Sweden vs. Tunisia,Sweden,Tunisia,Tunisia,38,45,7,home_15,主让1.5,no,0.74,1.3514,high,1,N,100,-100,3.52,2026-06-15 10:00,5-1,home,group,1,group-stage
+351727,Spain vs. Cabo Verde,Spain,Cabo Verde,Cabo Verde,2,67,65,home_15,主让1.5,no,0.20358165,4.912,high,0,Y,100,391.2,394.72,2026-06-16 00:00,0-0,draw,group,1,group-stage
+351728,Belgium vs. Egypt,Belgium,Egypt,Egypt,9,29,20,home_15,主让1.5,no,0.63946686,1.5638,high,0,Y,100,56.38,451.1,2026-06-16 03:00,1-1,draw,group,1,group-stage
+351729,Saudi Arabia vs. Uruguay,Saudi Arabia,Uruguay,Saudi Arabia,61,16,45,away_15,客让1.5(主受让1.5),no,0.59,1.6949,high,0,Y,100,69.49,520.59,2026-06-16 06:00,1-1,draw,group,1,group-stage
+351730,IR Iran vs. New Zealand,IR Iran,New Zealand,New Zealand,20,85,65,home_15,主让1.5,no,0.73716088,1.3566,high,0,Y,100,35.66,556.25,2026-06-16 09:00,2-2,draw,group,1,group-stage
+351731,France vs. Senegal,France,Senegal,Senegal,3,15,12,home_15,主让1.5,no,0.6,1.6667,high,1,N,100,-100,456.25,2026-06-17 03:00,3-1,home,group,1,group-stage
+351732,Iraq vs. Norway,Iraq,Norway,Iraq,57,31,26,away_15,客让1.5(主受让1.5),no,0.41927843,2.385,medium,1,N,100,-100,356.25,2026-06-17 06:00,1-4,away,group,1,group-stage
+351733,Argentina vs. Algeria,Argentina,Algeria,Algeria,1,28,27,home_15,主让1.5,no,0.63011806,1.587,high,1,N,100,-100,256.25,2026-06-17 09:00,3-0,home,group,1,group-stage
+351734,Austria vs. Jordan,Austria,Jordan,Jordan,24,63,39,home_15,主让1.5,no,0.55988453,1.7861,high,1,N,100,-100,156.25,2026-06-17 12:00,3-1,home,group,1,group-stage
+351735,Portugal vs. DR Congo,Portugal,DR Congo,DR Congo,5,46,41,home_15,主让1.5,no,0.47241948,2.1168,high,0,Y,100,111.68,267.93,2026-06-18 01:00,1-1,draw,group,1,group-stage
+351736,England vs. Croatia,England,Croatia,Croatia,4,11,7,home_15,主让1.5,no,0.68999999,1.4493,medium,1,N,100,-100,167.93,2026-06-18 04:00,4-2,home,group,1,group-stage
+351737,Ghana vs. Panama,Ghana,Panama,Ghana,73,34,39,away_15,客让1.5(主受让1.5),no,0.9,1.1111,fair,0,Y,100,11.11,179.04,2026-06-18 07:00,1-0,home,group,1,group-stage
+351738,Uzbekistan vs. Colombia,Uzbekistan,Colombia,Uzbekistan,50,13,37,away_15,客让1.5(主受让1.5),no,0.55,1.8182,high,1,N,100,-100,79.04,2026-06-18 10:00,1-3,away,group,1,group-stage
+351739,Czechia vs. South Africa,Czechia,South Africa,South Africa,40,60,20,home_15,主让1.5,no,0.73010234,1.3697,fair,0,Y,100,36.97,116.01,2026-06-19 00:00,1-1,draw,group,2,group-stage
+351740,Switzerland vs. Bosnia-Herzegovina,Switzerland,Bosnia-Herzegovina,Bosnia-Herzegovina,19,64,45,home_15,主让1.5,no,0.64,1.5625,high,1,N,100,-100,16.01,2026-06-19 03:00,4-1,home,group,2,group-stage
+351741,Canada vs. Qatar,Canada,Qatar,Qatar,30,56,26,home_15,主让1.5,no,0.47980098,2.0842,high,1,N,100,-100,-83.99,2026-06-19 06:00,6-0,home,group,2,group-stage
+351742,Mexico vs. Korea Republic,Mexico,Korea Republic,Korea Republic,14,25,11,home_15,主让1.5,no,0.77,1.2987,medium,0,Y,100,29.87,-54.12,2026-06-19 09:00,1-0,home,group,2,group-stage
+351743,United States vs. Australia,United States,Australia,Australia,17,27,10,home_15,主让1.5,no,0.66,1.5152,medium,1,N,100,-100,-154.12,2026-06-20 03:00,2-0,home,group,2,group-stage
+351744,Scotland vs. Morocco,Scotland,Morocco,Scotland,42,7,35,away_15,客让1.5(主受让1.5),no,0.68,1.4706,high,0,Y,100,47.06,-107.06,2026-06-20 06:00,0-1,away,group,2,group-stage
+351745,Brazil vs. Haiti,Brazil,Haiti,Haiti,6,83,77,home_15,主让1.5,no,0.2692857,3.7135,medium,1,N,100,-100,-207.06,2026-06-20 08:30,3-0,home,group,2,group-stage
+351746,Türkiye vs. Paraguay,Türkiye,Paraguay,Paraguay,22,41,19,home_15,主让1.5,no,0.76999999,1.2987,medium,0,Y,100,29.87,-177.19,2026-06-20 11:00,0-1,away,group,2,group-stage
+351747,Netherlands vs. Sweden,Netherlands,Sweden,Sweden,8,38,30,home_15,主让1.5,no,0.68984648,1.4496,high,1,N,100,-100,-277.19,2026-06-21 01:00,5-1,home,group,2,group-stage
+351748,Germany vs. Côte d'Ivoire,Germany,Côte d'Ivoire,Côte d'Ivoire,10,33,23,home_15,主让1.5,no,0.57,1.7544,high,0,Y,100,75.44,-201.75,2026-06-21 04:00,2-1,home,group,2,group-stage
+351749,Ecuador vs. Curaçao,Ecuador,Curaçao,Curaçao,23,82,59,home_15,主让1.5,no,0.36,2.7778,medium,0,Y,100,177.78,-23.97,2026-06-21 08:00,0-0,draw,group,2,group-stage
+351750,Tunisia vs. Japan,Tunisia,Japan,Tunisia,45,18,27,away_15,客让1.5(主受让1.5),no,0.58999999,1.6949,high,1,N,100,-100,-123.97,2026-06-21 12:00,0-4,away,group,2,group-stage
+351751,Spain vs. Saudi Arabia,Spain,Saudi Arabia,Saudi Arabia,2,61,59,home_15,主让1.5,no,0.24,4.1667,medium,1,N,100,-100,-223.97,2026-06-22 00:00,4-0,home,group,2,group-stage
+351752,Belgium vs. IR Iran,Belgium,IR Iran,IR Iran,9,20,11,home_15,主让1.5,no,0.56032498,1.7847,high,0,Y,100,78.47,-145.5,2026-06-22 03:00,0-0,draw,group,2,group-stage
+351753,Uruguay vs. Cabo Verde,Uruguay,Cabo Verde,Cabo Verde,16,67,51,home_15,主让1.5,no,0.58,1.7241,high,0,Y,100,72.41,-73.09,2026-06-22 06:00,2-2,draw,group,2,group-stage
+351754,New Zealand vs. Egypt,New Zealand,Egypt,New Zealand,85,29,56,away_15,客让1.5(主受让1.5),no,0.64008261,1.5623,fair,1,N,100,-100,-173.09,2026-06-22 09:00,1-3,away,group,2,group-stage
+351755,Argentina vs. Austria,Argentina,Austria,Austria,1,24,23,home_15,主让1.5,no,0.59971564,1.6675,high,1,N,100,-100,-273.09,2026-06-23 01:00,2-0,home,group,2,group-stage
+351756,France vs. Iraq,France,Iraq,Iraq,3,57,54,home_15,主让1.5,no,0.21209029,4.715,medium,1,N,100,-100,-373.09,2026-06-23 05:00,3-0,home,group,2,group-stage
+351757,Norway vs. Senegal,Norway,Senegal,Norway,31,15,16,away_15,客让1.5(主受让1.5),no,0.8700887,1.1493,fair,0,Y,100,14.93,-358.16,2026-06-23 08:00,3-2,home,group,2,group-stage
+351758,Jordan vs. Algeria,Jordan,Algeria,Jordan,63,28,35,away_15,客让1.5(主受让1.5),no,0.60974545,1.64,high,0,Y,100,64.0,-294.16,2026-06-23 11:00,1-2,away,group,2,group-stage
+351759,Portugal vs. Uzbekistan,Portugal,Uzbekistan,Uzbekistan,5,50,45,home_15,主让1.5,no,0.32,3.125,medium,1,N,100,-100,-394.16,2026-06-24 01:00,5-0,home,group,2,group-stage
+351760,England vs. Ghana,England,Ghana,Ghana,4,73,69,home_15,主让1.5,no,0.38,2.6316,medium,0,Y,100,163.16,-231.0,2026-06-24 04:00,0-0,draw,group,2,group-stage
+351761,Panama vs. Croatia,Panama,Croatia,Panama,34,11,23,away_15,客让1.5(主受让1.5),no,0.58,1.7241,medium,0,Y,100,72.41,-158.59,2026-06-24 07:00,0-1,away,group,2,group-stage
+351762,Colombia vs. DR Congo,Colombia,DR Congo,DR Congo,13,46,33,home_15,主让1.5,no,0.64,1.5625,high,0,Y,100,56.25,-102.34,2026-06-24 10:00,1-0,home,group,2,group-stage
+351763,Switzerland vs. Canada,Switzerland,Canada,Canada,19,30,11,home_15,主让1.5,no,0.84,1.1905,fair,0,Y,100,19.05,-83.29,2026-06-25 03:00,2-1,home,group,3,group-stage
+351764,Bosnia-Herzegovina vs. Qatar,Bosnia-Herzegovina,Qatar,Bosnia-Herzegovina,64,56,8,away_15,客让1.5(主受让1.5),no,0.96794422,1.0331,fair,0,Y,100,3.31,-79.98,2026-06-25 03:00,3-1,home,group,3,group-stage
+351765,Morocco vs. Haiti,Morocco,Haiti,Haiti,7,83,76,home_15,主让1.5,no,0.39024116,2.5625,high,1,N,100,-100,-179.98,2026-06-25 06:00,4-2,home,group,3,group-stage
+351766,Scotland vs. Brazil,Scotland,Brazil,Scotland,42,6,36,away_15,客让1.5(主受让1.5),no,0.51973477,1.9241,high,1,N,100,-100,-279.98,2026-06-25 06:00,0-3,away,group,3,group-stage
+351767,Czechia vs. Mexico,Czechia,Mexico,Czechia,40,14,26,away_15,客让1.5(主受让1.5),no,0.70017221,1.4282,medium,1,N,100,-100,-379.98,2026-06-25 09:00,0-3,away,group,3,group-stage
+351768,South Africa vs. Korea Republic,South Africa,Korea Republic,South Africa,60,25,35,away_15,客让1.5(主受让1.5),no,0.68,1.4706,high,0,Y,100,47.06,-332.92,2026-06-25 09:00,1-0,home,group,3,group-stage
+351769,Ecuador vs. Germany,Ecuador,Germany,Ecuador,23,10,13,away_15,客让1.5(主受让1.5),no,0.66,1.5152,high,0,Y,100,51.52,-281.4,2026-06-26 04:00,2-1,home,group,3,group-stage
+351770,Curaçao vs. Côte d'Ivoire,Curaçao,Côte d'Ivoire,Curaçao,82,33,49,away_15,客让1.5(主受让1.5),no,0.33014936,3.0289,high,1,N,100,-100,-381.4,2026-06-26 04:00,0-2,away,group,3,group-stage
+351771,Japan vs. Sweden,Japan,Sweden,Sweden,18,38,20,home_15,主让1.5,no,0.76264323,1.3112,medium,0,Y,100,31.12,-350.28,2026-06-26 07:00,1-1,draw,group,3,group-stage
+351772,Tunisia vs. Netherlands,Tunisia,Netherlands,Tunisia,45,8,37,away_15,客让1.5(主受让1.5),no,0.27,3.7037,high,1,N,100,-100,-450.28,2026-06-26 07:00,1-3,away,group,3,group-stage
+351773,Paraguay vs. Australia,Paraguay,Australia,Paraguay,41,27,14,away_15,客让1.5(主受让1.5),no,0.93059765,1.0746,fair,0,Y,100,7.46,-442.82,2026-06-26 10:00,0-0,draw,group,3,group-stage
+351774,Türkiye vs. United States,Türkiye,United States,Türkiye,22,17,5,away_15,客让1.5(主受让1.5),no,0.71905161,1.3907,high,0,Y,100,39.07,-403.75,2026-06-26 10:00,3-2,home,group,3,group-stage
+351775,Norway vs. France,Norway,France,Norway,31,3,28,away_15,客让1.5(主受让1.5),no,0.54,1.8519,high,1,N,100,-100,-503.75,2026-06-27 03:00,1-4,away,group,3,group-stage
+351776,Senegal vs. Iraq,Senegal,Iraq,Iraq,15,57,42,home_15,主让1.5,no,0.43065763,2.322,high,1,N,100,-100,-603.75,2026-06-27 03:00,5-0,home,group,3,group-stage
+351777,Cabo Verde vs. Saudi Arabia,Cabo Verde,Saudi Arabia,Cabo Verde,67,61,6,away_15,客让1.5(主受让1.5),no,0.82049445,1.2188,fair,0,Y,100,21.88,-581.87,2026-06-27 08:00,0-0,draw,group,3,group-stage
+351778,Uruguay vs. Spain,Uruguay,Spain,Uruguay,16,2,14,away_15,客让1.5(主受让1.5),no,0.67002622,1.4925,high,0,Y,100,49.25,-532.62,2026-06-27 08:00,0-1,away,group,3,group-stage
+351780,New Zealand vs. Belgium,New Zealand,Belgium,New Zealand,85,9,76,away_15,客让1.5(主受让1.5),no,0.34000104,2.9412,medium,1,N,100,-100,-632.62,2026-06-27 11:00,1-5,away,group,3,group-stage
+351781,Panama vs. England,Panama,England,Panama,34,4,30,away_15,客让1.5(主受让1.5),no,0.33,3.0303,high,1,N,100,-100,-732.62,2026-06-28 05:00,0-2,away,group,3,group-stage
+351782,Croatia vs. Ghana,Croatia,Ghana,Ghana,11,73,62,home_15,主让1.5,no,0.73,1.3699,high,0,Y,100,36.99,-695.63,2026-06-28 05:00,2-1,home,group,3,group-stage
+351783,Colombia vs. Portugal,Colombia,Portugal,Colombia,13,5,8,away_15,客让1.5(主受让1.5),no,0.72999999,1.3699,high,0,Y,100,36.99,-658.64,2026-06-28 07:30,0-0,draw,group,3,group-stage
+351784,DR Congo vs. Uzbekistan,DR Congo,Uzbekistan,Uzbekistan,46,50,4,home_15,主让1.5,no,0.7,1.4286,medium,1,N,100,-100,-758.64,2026-06-28 07:30,3-1,home,group,3,group-stage
+351785,Jordan vs. Argentina,Jordan,Argentina,Jordan,63,1,62,away_15,客让1.5(主受让1.5),no,0.32050996,3.12,fair,1,N,100,-100,-858.64,2026-06-28 10:00,1-3,away,group,3,group-stage
+351786,Algeria vs. Austria,Algeria,Austria,Algeria,28,24,4,away_15,客让1.5(主受让1.5),no,0.91994975,1.087,fair,0,Y,100,8.7,-849.94,2026-06-28 10:00,3-3,draw,group,3,group-stage
+632707,South Africa vs. Canada,South Africa,Canada,South Africa,60,30,30,away_15,客让1.5(主受让1.5),no,0.72692309,1.3757,high,0,Y,100,37.57,-812.37,2026-06-29 03:00,0-1,away,knockout,,round-of-32
+636318,Brazil vs. Japan,Brazil,Japan,Japan,6,18,12,home_15,主让1.5,no,0.72049969,1.3879,high,0,Y,100,38.79,-773.58,2026-06-30 01:00,2-1,home,knockout,,round-of-32
+640346,Germany vs. Paraguay,Germany,Paraguay,Paraguay,10,41,31,home_15,主让1.5,no,0.52,1.9231,high,0,Y,100,92.31,-681.27,2026-06-30 04:30,1-1,draw,knockout,,round-of-32
+636324,Netherlands vs. Morocco,Netherlands,Morocco,Netherlands,8,7,1,away_15,客让1.5(主受让1.5),no,0.9,1.1111,fair,0,Y,100,11.11,-670.16,2026-06-30 09:00,1-1,draw,knockout,,round-of-32
+640353,Côte d'Ivoire vs. Norway,Côte d'Ivoire,Norway,Côte d'Ivoire,33,31,2,away_15,客让1.5(主受让1.5),no,0.7651996,1.3068,medium,0,Y,100,30.68,-639.48,2026-07-01 01:00,1-2,away,knockout,,round-of-32
+640358,France vs. Sweden,France,Sweden,Sweden,3,38,35,home_15,主让1.5,no,0.47000316,2.1276,high,1,N,100,-100,-739.48,2026-07-01 05:00,3-0,home,knockout,,round-of-32
+643861,Mexico vs. Ecuador,Mexico,Ecuador,Ecuador,14,23,9,home_15,主让1.5,no,0.82,1.2195,high,1,N,100,-100,-839.48,2026-07-01 09:00,2-0,home,knockout,,round-of-32
+643867,England vs. DR Congo,England,DR Congo,DR Congo,4,46,42,home_15,主让1.5,no,0.51974198,1.924,medium,0,Y,100,92.4,-747.08,2026-07-02 00:00,2-1,home,knockout,,round-of-32
+643872,Belgium vs. Senegal,Belgium,Senegal,Senegal,9,15,6,home_15,主让1.5,no,0.78,1.2821,medium,0,Y,100,28.21,-718.87,2026-07-02 04:00,3-2,draw,knockout,,round-of-32
+636329,United States vs. Bosnia and Herzegovina,United States,Bosnia and Herzegovina,Bosnia and Herzegovina,17,64,47,home_15,主让1.5,no,0.52,1.9231,high,1,N,100,-100,-818.87,2026-07-02 08:00,2-0,home,knockout,,round-of-32
+643876,Spain vs. Austria,Spain,Austria,Austria,2,24,22,home_15,主让1.5,no,0.49470048,2.0214,high,1,N,100,-100,-918.87,2026-07-03 03:00,3-0,home,knockout,,round-of-32
+643880,Portugal vs. Croatia,Portugal,Croatia,Croatia,5,11,6,home_15,主让1.5,no,0.675,1.4815,high,0,Y,100,48.15,-870.72,2026-07-03 07:00,2-1,home,knockout,,round-of-32
+643884,Switzerland vs. Algeria,Switzerland,Algeria,Algeria,19,28,9,home_15,主让1.5,no,0.76,1.3158,medium,1,N,100,-100,-970.72,2026-07-03 11:00,2-0,home,knockout,,round-of-32
+640362,Australia vs. Egypt,Australia,Egypt,Egypt,27,29,2,home_15,主让1.5,no,0.92,1.087,fair,0,Y,100,8.7,-962.02,2026-07-04 02:00,1-1,draw,knockout,,round-of-32
+640364,Argentina vs. Cabo Verde,Argentina,Cabo Verde,Cabo Verde,1,67,66,home_15,主让1.5,no,0.32999992,3.0303,high,0,Y,100,203.03,-758.99,2026-07-04 06:00,3-2,draw,knockout,,round-of-32
+643888,Colombia vs. Ghana,Colombia,Ghana,Ghana,13,73,60,home_15,主让1.5,no,0.57999999,1.7241,high,0,Y,100,72.41,-686.58,2026-07-04 09:30,1-0,home,knockout,,round-of-32
+650867,Canada vs. Morocco,Canada,Morocco,Canada,30,7,23,away_15,客让1.5(主受让1.5),no,0.72,1.3889,high,1,N,100,-100,-786.58,2026-07-05 01:00,0-3,away,knockout,,round-of-16
+654603,Paraguay vs. France,Paraguay,France,Paraguay,41,3,38,away_15,客让1.5(主受让1.5),no,0.40999999,2.439,high,0,Y,100,143.9,-642.68,2026-07-05 05:00,0-1,away,knockout,,round-of-16
+654615,Brazil vs. Norway,Brazil,Norway,Norway,6,31,25,home_15,主让1.5,no,0.7,1.4286,high,0,Y,100,42.86,-599.82,2026-07-06 04:00,1-2,away,knockout,,round-of-16
+658244,Mexico vs. England,Mexico,England,Mexico,14,4,10,away_15,客让1.5(主受让1.5),no,0.85,1.1765,medium,0,Y,100,17.65,-582.17,2026-07-06 08:00,2-3,away,knockout,,round-of-16
+662059,Portugal vs. Spain,Portugal,Spain,Portugal,5,2,3,away_15,客让1.5(主受让1.5),no,0.74,1.3514,high,0,Y,100,35.14,-547.03,2026-07-07 03:00,0-1,away,knockout,,round-of-16
+658252,United States vs. Belgium,United States,Belgium,United States,17,9,8,away_15,客让1.5(主受让1.5),no,0.85,1.1765,medium,1,N,100,-100,-647.03,2026-07-07 08:00,1-4,away,knockout,,round-of-16
+665652,Argentina vs. Egypt,Argentina,Egypt,Egypt,1,29,28,home_15,主让1.5,no,0.53,1.8868,high,0,Y,100,88.68,-558.35,2026-07-08 00:00,3-2,home,knockout,,round-of-16
+665660,Switzerland vs. Colombia,Switzerland,Colombia,Switzerland,19,13,6,away_15,客让1.5(主受让1.5),no,0.80949036,1.2353,high,0,Y,100,23.53,-534.82,2026-07-08 04:00,0-0,draw,knockout,,round-of-16
+669233,France vs. Morocco,France,Morocco,Morocco,3,7,4,home_15,主让1.5,no,0.655,1.5267,high,1,N,100,-100,-634.82,2026-07-10 04:00,2-0,home,knockout,,quarter-finals
+676288,Spain vs. Belgium,Spain,Belgium,Belgium,2,9,7,home_15,主让1.5,no,0.66249999,1.5094,high,0,Y,100,50.94,-583.88,2026-07-11 03:00,2-1,home,knockout,,quarter-finals
+672628,Norway vs. England,Norway,England,Norway,31,4,27,away_15,客让1.5(主受让1.5),no,0.715,1.3986,high,0,Y,100,39.86,-544.02,2026-07-12 05:00,1-2,draw,knockout,,quarter-finals
+679992,Argentina vs. Switzerland,Argentina,Switzerland,Switzerland,1,19,18,home_15,主让1.5,no,0.695,1.4388,high,0,Y,100,43.88,-500.14,2026-07-12 09:00,3-1,draw,knockout,,quarter-finals
+691040,France vs. Spain,France,Spain,France,3,2,1,away_15,客让1.5(主受让1.5),no,0.8775,1.1396,high,1,N,100,-100,-600.14,2026-07-15 03:00,0-2,away,knockout,,semi-finals
+694581,England vs. Argentina,England,Argentina,England,4,1,3,away_15,客让1.5(主受让1.5),no,0.8834819,1.1319,fair,0,Y,100,13.19,-586.95,2026-07-16 03:00,1-2,away,knockout,,semi-finals
+708596,France vs. England,France,England,England,3,4,1,home_15,主让1.5,no,0.68,1.4706,medium,0,Y,100,47.06,-539.89,2026-07-19 05:00,4-6,away,knockout,,third-place
+708597,Spain vs. Argentina,Spain,Argentina,Spain,2,1,1,away_15,客让1.5(主受让1.5),no,0.91502567,1.0929,medium,0,Y,100,9.29,-530.6,2026-07-20 03:00,1-0,draw,knockout,,final

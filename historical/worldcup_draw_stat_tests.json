@@ -1,0 +1,37 @@
+{
+  "group": {
+    "difference_pp": 5.9,
+    "z": 1.008,
+    "p_value": 0.3136,
+    "history_draws": 42,
+    "history_matches": 192
+  },
+  "md1": {
+    "difference_pp": 12.5,
+    "z": 1.158,
+    "p_value": 0.2469,
+    "history_draws": 16,
+    "history_matches": 64
+  },
+  "md2": {
+    "difference_pp": -1.04,
+    "z": -0.106,
+    "p_value": 0.9158,
+    "history_draws": 14,
+    "history_matches": 64
+  },
+  "md3": {
+    "difference_pp": 6.25,
+    "z": 0.647,
+    "p_value": 0.5174,
+    "history_draws": 12,
+    "history_matches": 64
+  },
+  "knockout": {
+    "difference_pp": -6.25,
+    "z": -0.617,
+    "p_value": 0.537,
+    "history_draws": 22,
+    "history_matches": 64
+  }
+}

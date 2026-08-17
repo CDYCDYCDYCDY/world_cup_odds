@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>平局即金 · 2026世界杯赔率策略实验室</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,'Segoe UI',sans-serif;background:#0d1b2a;color:#e0e1dd;min-height:100vh}
+
+/* ===== HERO ===== */
+.hero{position:relative;height:440px;display:flex;align-items:center;justify-content:center;overflow:hidden;border-radius:0 0 16px 16px}
+.hero-bg{position:absolute;inset:0;background:url('hero.jpg') center/cover no-repeat;filter:brightness(.45)}
+.hero-content{position:relative;z-index:2;text-align:center;padding:0 20px}
+.hero-content h1{font-size:42px;font-weight:800;background:linear-gradient(90deg,#4caf50,#ffd700,#4caf50);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:12px;letter-spacing:2px}
+.hero-content .subtitle{font-size:18px;color:#a0aec0;margin-bottom:20px}
+.hero-stats{display:flex;justify-content:center;gap:32px;flex-wrap:wrap}
+.hero-stat{text-align:center}
+.hero-stat .num{font-size:32px;font-weight:800;color:#4caf50}
+.hero-stat .num.gold{color:#ffd700}
+.hero-stat .label{font-size:13px;color:#778da9;margin-top:2px}
+.hero-cta{margin-top:24px;display:inline-block;padding:12px 36px;background:linear-gradient(135deg,#4caf50,#2e7d32);color:#fff;border-radius:30px;font-size:16px;font-weight:600;cursor:pointer;transition:.3s;border:none;box-shadow:0 4px 20px rgba(76,175,80,.4)}
+.hero-cta:hover{transform:translateY(-2px);box-shadow:0 6px 28px rgba(76,175,80,.55)}
+
+/* ===== INSIGHTS SECTION ===== */
+.insights{max-width:1600px;margin:0 auto;padding:32px 20px}
+.insights .section-title{font-size:24px;color:#4caf50;text-align:center;margin-bottom:8px}
+.insights .section-sub{text-align:center;color:#778da9;font-size:14px;margin-bottom:28px}
+.insight-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-bottom:28px}
+@media(max-width:900px){.insight-grid{grid-template-columns:1fr}}
+.insight-card{background:#1b263b;border-radius:12px;border:1px solid #2a3f5f;padding:24px;position:relative;overflow:hidden}
+.insight-card .ic-icon{font-size:32px;margin-bottom:12px}
+.insight-card .ic-title{font-size:16px;font-weight:700;color:#e0e1dd;margin-bottom:8px}
+.insight-card .ic-body{font-size:14px;color:#a0aec0;line-height:1.7}
+.insight-card .ic-highlight{color:#4caf50;font-weight:700}
+.insight-card .ic-highlight.gold{color:#ffd700}
+.insight-card .ic-highlight.red{color:#f44336}
+.insight-narrative{background:#1b263b;border-radius:12px;border:1px solid #2a3f5f;padding:28px;margin-bottom:28px}
+.insight-narrative h3{font-size:18px;color:#4caf50;margin-bottom:14px}
+.insight-narrative p{font-size:15px;color:#c0c8d0;line-height:1.9;margin-bottom:12px}
+.insight-narrative p:last-child{margin-bottom:0}
+.insight-narrative strong{color:#ffd700}
+
+/* ===== VISUAL CHART CARDS ===== */
+.insight-charts{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-bottom:28px}
+@media(max-width:900px){.insight-charts{grid-template-columns:1fr}}
+.chart-card{background:#1b263b;border-radius:12px;border:1px solid #2a3f5f;padding:20px}
+.chart-card h3{font-size:15px;color:#4caf50;margin-bottom:14px}
+.chart-card .canvas-wrap{width:100%}
+.chart-card .canvas-wrap svg{width:100%;height:auto;display:block}
+.chart-note{font-size:12px;color:#778da9;text-align:center;margin-top:10px;line-height:1.5}
+.format-visual{display:flex;flex-direction:column;gap:14px;padding:10px 0}
+.format-row{display:flex;align-items:center;gap:10px;padding:12px;border-radius:8px;font-size:13px}
+.format-row.old{background:rgba(244,67,54,.12);border:1px solid rgba(244,67,54,.3)}
+.format-row.new{background:rgba(76,175,80,.12);border:1px solid rgba(76,175,80,.3)}
+.format-row .fr-tag{font-size:11px;padding:2px 8px;border-radius:4px;white-space:nowrap}
+.format-row.old .fr-tag{background:#f44336;color:#fff}
+.format-row.new .fr-tag{background:#4caf50;color:#fff}
+.format-row .fr-text{color:#a0aec0;font-size:12px}
+.insight-quick{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-bottom:28px}
+@media(max-width:900px){.insight-quick{grid-template-columns:1fr}}
+.quick-card{background:#0d1b2a;border-radius:10px;border:1px solid #2a3f5f;padding:18px;text-align:center}
+.quick-card .qc-num{font-size:28px;font-weight:800;margin-bottom:4px}
+.quick-card .qc-num.pos{color:#4caf50}
+.quick-card .qc-num.gold{color:#ffd700}
+.quick-card .qc-num.red{color:#f44336}
+.quick-card .qc-label{font-size:13px;color:#778da9}
+.quick-card .qc-sub{font-size:11px;color:#415a77;margin-top:4px}
+.risk-bar{display:flex;align-items:center;gap:12px;background:rgba(244,67,54,.08);border:1px solid rgba(244,67,54,.25);border-radius:10px;padding:14px 18px;margin-bottom:28px;font-size:13px;color:#a0aec0}
+.risk-bar .rb-icon{font-size:20px;flex-shrink:0}
+.risk-bar strong{color:#f44336}
+.insight-cta-bar{text-align:center;margin-bottom:12px}
+.insight-cta-bar button{padding:14px 40px;background:linear-gradient(135deg,#4caf50,#2e7d32);color:#fff;border:none;border-radius:30px;font-size:16px;font-weight:600;cursor:pointer;transition:.3s;box-shadow:0 4px 20px rgba(76,175,80,.4)}
+.insight-cta-bar button:hover{transform:translateY(-2px);box-shadow:0 6px 28px rgba(76,175,80,.55)}
+
+/* ===== LAYOUT ===== */
+.app{max-width:1600px;margin:0 auto;padding:20px}
+.preset-bar{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:16px;align-items:center}
+.preset-bar .label{font-size:14px;color:#778da9;margin-right:4px}
+.preset-btn{padding:8px 16px;border-radius:20px;border:1px solid #2a3f5f;background:#1b263b;color:#e0e1dd;cursor:pointer;font-size:13px;transition:.2s}
+.preset-btn:hover{border-color:#4caf50;color:#4caf50}
+.preset-btn.active{background:#4caf50;color:#fff;border-color:#4caf50}
+.preset-btn.clear{border-color:#f44336;color:#f44336}
+.preset-btn.clear:hover{background:#f44336;color:#fff}
+main{display:grid;grid-template-columns:400px 1fr;gap:16px;align-items:start}
+@media(max-width:1000px){main{grid-template-columns:1fr}}
+
+/* ===== PANELS ===== */
+.panel{background:#1b263b;border-radius:12px;border:1px solid #2a3f5f;padding:20px}
+.panel h2{font-size:18px;color:#4caf50;margin-bottom:16px;border-bottom:1px solid #2a3f5f;padding-bottom:10px;display:flex;justify-content:space-between;align-items:center}
+.stake-row{display:flex;align-items:center;gap:8px;margin-bottom:16px}
+.stake-row label{color:#778da9;font-size:14px}
+.stake-row input{width:80px;background:#0d1b2a;border:1px solid #2a3f5f;color:#e0e1dd;padding:4px 8px;border-radius:6px}
+.info-btn{background:#2a3f5f;color:#778da9;border:1px solid #3a4f6f;border-radius:6px;padding:3px 10px;cursor:pointer;font-size:12px;transition:.2s}
+.info-btn:hover{background:#3a4f6f;color:#e0e1dd}
+
+/* ===== RULE CARDS ===== */
+.rule-card{background:#0d1b2a;border:1px solid #2a3f5f;border-radius:8px;padding:14px;margin-bottom:12px}
+.rule-card .rule-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px}
+.rule-card .rule-title{font-size:14px;color:#778da9}
+.rule-card .remove-btn{background:#f44336;color:#fff;border:none;border-radius:4px;padding:2px 8px;cursor:pointer;font-size:12px}
+.rule-fields{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.rule-fields.full{grid-column:1/-1}
+.rule-fields select{width:100%;background:#1b263b;border:1px solid #2a3f5f;color:#e0e1dd;padding:6px;border-radius:6px;font-size:13px}
+.rule-fields label{display:block;font-size:11px;color:#778da9;margin-bottom:3px}
+.rule-count{margin-top:8px;font-size:12px;color:#4caf50}
+
+/* ===== BUTTONS ===== */
+.btn{padding:10px 20px;border:none;border-radius:8px;cursor:pointer;font-size:14px;font-weight:600;transition:.2s}
+.btn-add{background:#2a3f5f;color:#778da9;width:100%;margin-bottom:8px}
+.btn-add:hover{background:#3a4f6f;color:#e0e1dd}
+.btn-run{background:#4caf50;color:#fff;width:100%}
+.btn-run:hover{background:#45a049}
+
+/* ===== KPI ===== */
+.kpi-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:20px}
+@media(max-width:700px){.kpi-grid{grid-template-columns:repeat(2,1fr)}}
+.kpi-card{background:#0d1b2a;border-radius:8px;padding:16px;text-align:center;border:1px solid #2a3f5f}
+.kpi-card .label{font-size:12px;color:#778da9;margin-bottom:6px}
+.kpi-card .value{font-size:24px;font-weight:700}
+.kpi-card .value.pos{color:#4caf50}
+.kpi-card .value.neg{color:#f44336}
+.kpi-card .value.neu{color:#ffd700}
+
+/* ===== CHARTS & TABLES ===== */
+.chart-box{background:#0d1b2a;border-radius:8px;padding:16px;margin-bottom:16px;border:1px solid #2a3f5f}
+.chart-box h3{font-size:14px;color:#778da9;margin-bottom:12px}
+table{width:100%;border-collapse:collapse;font-size:13px}
+th,td{padding:8px 6px;text-align:left;border-bottom:1px solid #2a3f5f}
+th{color:#778da9;font-size:11px;text-transform:uppercase}
+td.hit-yes{color:#4caf50}
+td.hit-no{color:#f44336}
+.table-box{background:#0d1b2a;border-radius:8px;padding:16px;margin-bottom:16px;border:1px solid #2a3f5f;max-height:500px;overflow-y:auto}
+.table-box h3{font-size:14px;color:#778da9;margin-bottom:12px;position:sticky;top:0;background:#0d1b2a;padding-bottom:8px;z-index:1}
+.empty{text-align:center;color:#778da9;padding:40px}
+.tag{display:inline-block;padding:2px 8px;border-radius:4px;font-size:11px}
+.tag-home{background:#1b5e20;color:#a5d6a7}
+.tag-draw{background:#4e342e;color:#bcaaa4}
+.tag-away{background:#0d47a1;color:#90caf9}
+
+/* ===== MODAL ===== */
+.modal-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.7);z-index:999;justify-content:center;align-items:center;padding:20px}
+.modal-overlay.show{display:flex}
+.modal{background:#1b263b;border-radius:12px;border:1px solid #2a3f5f;max-width:700px;width:100%;max-height:80vh;overflow-y:auto;padding:28px}
+.modal h2{font-size:22px;color:#4caf50;margin-bottom:6px}
+.modal .modal-sub{font-size:14px;color:#778da9;margin-bottom:20px}
+.modal-close{float:right;background:#f44336;color:#fff;border:none;border-radius:6px;padding:6px 14px;cursor:pointer;font-size:13px}
+.strategy-def{background:#0d1b2a;border-radius:8px;padding:14px;margin-bottom:12px;border-left:3px solid #4caf50}
+.strategy-def .sd-name{font-size:16px;font-weight:700;color:#4caf50;margin-bottom:4px}
+.strategy-def .sd-desc{font-size:14px;color:#e0e1dd;margin-bottom:4px}
+.strategy-def .sd-example{font-size:12px;color:#778da9;font-style:italic}
+</style>
+</head>
+<body>
+
+<!-- ===== HERO ===== -->
+<div class="hero">
+<div class="hero-bg"></div>
+<div class="hero-content">
+<h1>平局即金</h1>
+<div class="subtitle">2026世界杯 · 西班牙加冕夺冠 · 用数据找到赚钱的赌法</div>
+<div class="hero-stats">
+<div class="hero-stat"><div class="num">+36.12%</div><div class="label">全押平局 ROI</div></div>
+<div class="hero-stat"><div class="num gold">+131%</div><div class="label">小组赛首轮 ROI</div></div>
+<div class="hero-stat"><div class="num">104</div><div class="label">场比赛数据</div></div>
+</div>
+<button class="hero-cta" onclick="document.getElementById('insights').scrollIntoView({behavior:'smooth'})">了解为什么买平局能赚钱 ↓</button>
+</div>
+</div>
+
+<!-- ===== INSIGHTS ===== -->
+<div class="insights" id="insights">
+<div class="section-title">平局回来了，而且被市场低估</div>
+<div class="section-sub">104场数据回测揭示的系统性机会</div>
+
+<!-- 三张核心图表 -->
+<div class="insight-charts">
+<div class="chart-card">
+<h3>📈 近六届世界杯平局率</h3>
+<div class="canvas-wrap"><svg viewBox="0 0 360 200" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system,'Segoe UI',sans-serif">
+<g stroke="#2a3f5f"><line x1="35" y1="175" x2="350" y2="175"/><line x1="35" y1="129.3" x2="350" y2="129.3" stroke-dasharray="2,3"/><line x1="35" y1="83.6" x2="350" y2="83.6" stroke-dasharray="2,3"/><line x1="35" y1="37.9" x2="350" y2="37.9" stroke-dasharray="2,3"/></g>
+<g fill="#778da9" text-anchor="end" font-size="9"><text x="31" y="178">0</text><text x="31" y="132.3">10</text><text x="31" y="86.6">20</text><text x="31" y="40.9">30</text></g>
+<rect x="41.5" y="39.3" width="32" height="135.7" fill="#415a77" rx="2"/><text x="57.5" y="35" text-anchor="middle" fill="#e0e1dd" font-size="9">29.7</text><text x="57.5" y="188" text-anchor="middle" fill="#778da9" font-size="9">2002</text>
+<rect x="86.5" y="53.4" width="32" height="121.6" fill="#415a77" rx="2"/><text x="102.5" y="49" text-anchor="middle" fill="#e0e1dd" font-size="9">26.6</text><text x="102.5" y="188" text-anchor="middle" fill="#778da9" font-size="9">2006</text>
+<rect x="131.5" y="46.5" width="32" height="128.5" fill="#415a77" rx="2"/><text x="147.5" y="42" text-anchor="middle" fill="#e0e1dd" font-size="9">28.1</text><text x="147.5" y="188" text-anchor="middle" fill="#778da9" font-size="9">2010</text>
+<rect x="176.5" y="53.4" width="32" height="121.6" fill="#415a77" rx="2"/><text x="192.5" y="49" text-anchor="middle" fill="#e0e1dd" font-size="9">26.6</text><text x="192.5" y="188" text-anchor="middle" fill="#778da9" font-size="9">2014</text>
+<rect x="221.5" y="74.9" width="32" height="100.1" fill="#415a77" rx="2"/><text x="237.5" y="70.5" text-anchor="middle" fill="#e0e1dd" font-size="9">21.9</text><text x="237.5" y="188" text-anchor="middle" fill="#778da9" font-size="9">2018</text>
+<rect x="266.5" y="68" width="32" height="107" fill="#415a77" rx="2"/><text x="282.5" y="63.5" text-anchor="middle" fill="#e0e1dd" font-size="9">23.4</text><text x="282.5" y="188" text-anchor="middle" fill="#778da9" font-size="9">2022</text>
+<rect x="311.5" y="47.5" width="32" height="127.5" fill="#4caf50" rx="2"/><text x="327.5" y="43" text-anchor="middle" fill="#4caf50" font-size="9" font-weight="bold">27.9</text><text x="327.5" y="188" text-anchor="middle" fill="#4caf50" font-size="9" font-weight="bold">2026</text>
+<text x="12" y="95" fill="#778da9" font-size="9" transform="rotate(-90 12 95)" text-anchor="middle">平局率 %</text>
+</svg></div>
+<div class="chart-note">2026平局率回升至27.9%，回到2002/2010高位</div>
+</div>
+<div class="chart-card">
+<h3>🎯 小组赛各轮平局率</h3>
+<div class="canvas-wrap"><svg viewBox="0 0 360 200" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system,'Segoe UI',sans-serif">
+<g stroke="#2a3f5f"><line x1="35" y1="175" x2="350" y2="175"/><line x1="35" y1="135" x2="350" y2="135" stroke-dasharray="2,3"/><line x1="35" y1="95" x2="350" y2="95" stroke-dasharray="2,3"/><line x1="35" y1="55" x2="350" y2="55" stroke-dasharray="2,3"/><line x1="35" y1="15" x2="350" y2="15" stroke-dasharray="2,3"/></g>
+<g fill="#778da9" text-anchor="end" font-size="9"><text x="31" y="178">0</text><text x="31" y="138">10</text><text x="31" y="98">20</text><text x="31" y="58">30</text><text x="31" y="18">40</text></g>
+<rect x="57.5" y="25" width="60" height="150" fill="#4caf50" rx="2"/><text x="87.5" y="20" text-anchor="middle" fill="#4caf50" font-size="11" font-weight="bold">37.5</text><text x="87.5" y="190" text-anchor="middle" fill="#e0e1dd" font-size="10">第1轮</text>
+<rect x="162.5" y="91.8" width="60" height="83.2" fill="#ffd700" rx="2"/><text x="192.5" y="86.8" text-anchor="middle" fill="#ffd700" font-size="11" font-weight="bold">20.8</text><text x="192.5" y="190" text-anchor="middle" fill="#e0e1dd" font-size="10">第2轮</text>
+<rect x="267.5" y="75" width="60" height="100" fill="#f44336" rx="2"/><text x="297.5" y="70" text-anchor="middle" fill="#f44336" font-size="11" font-weight="bold">25.0</text><text x="297.5" y="190" text-anchor="middle" fill="#e0e1dd" font-size="10">第3轮</text>
+<text x="12" y="95" fill="#778da9" font-size="9" transform="rotate(-90 12 95)" text-anchor="middle">平局率 %</text>
+</svg></div>
+<div class="chart-note">首轮37.5%远高于后两轮，最赚钱的窗口</div>
+</div>
+<div class="chart-card">
+<h3>💰 各策略 ROI 对比</h3>
+<div class="canvas-wrap"><svg viewBox="0 0 360 200" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system,'Segoe UI',sans-serif">
+<g stroke="#2a3f5f"><line x1="89.4" y1="12" x2="89.4" y2="180" stroke-dasharray="2,3"/><line x1="132.8" y1="12" x2="132.8" y2="180" stroke-dasharray="2,3"/><line x1="176" y1="12" x2="176" y2="180" stroke="#5a6f8f" stroke-width="1.5"/><line x1="219.4" y1="12" x2="219.4" y2="180" stroke-dasharray="2,3"/><line x1="262.8" y1="12" x2="262.8" y2="180" stroke-dasharray="2,3"/><line x1="306.1" y1="12" x2="306.1" y2="180" stroke-dasharray="2,3"/></g>
+<g fill="#778da9" text-anchor="middle" font-size="9"><text x="89.4" y="193">-60</text><text x="132.8" y="193">-30</text><text x="176" y="193">0</text><text x="219.4" y="193">30</text><text x="262.8" y="193">60</text><text x="306.1" y="193">90</text></g>
+<rect x="176" y="17" width="146.4" height="18" fill="#4caf50" rx="2"/><text x="70" y="30" text-anchor="end" fill="#e0e1dd" font-size="10">价值平局</text><text x="327" y="30" fill="#4caf50" font-size="9" font-weight="bold">+101</text>
+<rect x="176" y="45" width="52.3" height="18" fill="#4caf50" rx="2"/><text x="70" y="58" text-anchor="end" fill="#e0e1dd" font-size="10">全押平局</text><text x="233" y="58" fill="#4caf50" font-size="9">+36</text>
+<rect x="176" y="73" width="4.4" height="18" fill="#ffd700" rx="2"/><text x="70" y="86" text-anchor="end" fill="#e0e1dd" font-size="10">押热门</text><text x="186" y="86" fill="#ffd700" font-size="9">+3</text>
+<rect x="157.7" y="101" width="18.3" height="18" fill="#f44336" rx="2"/><text x="70" y="114" text-anchor="end" fill="#e0e1dd" font-size="10">全主胜</text><text x="153" y="114" text-anchor="end" fill="#f44336" font-size="9">-13</text>
+<rect x="113.2" y="129" width="62.8" height="18" fill="#f44336" rx="2"/><text x="70" y="142" text-anchor="end" fill="#e0e1dd" font-size="10">全客胜</text><text x="108" y="142" text-anchor="end" fill="#f44336" font-size="9">-44</text>
+<rect x="92.2" y="157" width="83.8" height="18" fill="#f44336" rx="2"/><text x="70" y="170" text-anchor="end" fill="#e0e1dd" font-size="10">押冷门</text><text x="87" y="170" text-anchor="end" fill="#f44336" font-size="9">-58</text>
+<text x="250" y="9" fill="#778da9" font-size="9" text-anchor="middle">ROI %</text>
+</svg></div>
+<div class="chart-note">价值平局+101%，全押平局+36%，押冷门-58%</div>
+</div>
+</div>
+
+<!-- 赛制变化可视化 -->
+<div class="chart-card" style="margin-bottom:28px">
+<h3>🏟️ 为什么平局变多了？48队新赛制改变了博弈</h3>
+<div class="format-visual">
+<div class="format-row old">
+<span class="fr-tag">旧赛制 32队</span>
+<span class="fr-text">3场全平 = 3分 → 大概率淘汰，平局是"死亡线"</span>
+</div>
+<div class="format-row new">
+<span class="fr-tag">新赛制 48队</span>
+<span class="fr-text">3场全平 = 3分 → 8个最佳小组第三可出线，平局成了"安全牌"</span>
+</div>
+<div class="format-row new">
+<span class="fr-tag">结果</span>
+<span class="fr-text">弱队摆大巴死守1分 ✓ &nbsp; 中游队互踢各拿1分 ✓ &nbsp; "不输就行"成理性选择 ✓</span>
+</div>
+</div>
+</div>
+
+<!-- 精简数据卡片 -->
+<div class="insight-quick">
+<div class="quick-card">
+<div class="qc-num pos">+36.12%</div>
+<div class="qc-label">全押平局 ROI</div>
+<div class="qc-sub">102场 · 命中率28.4% · 净赚$3,756</div>
+</div>
+<div class="quick-card">
+<div class="qc-num gold">+131%</div>
+<div class="qc-label">小组赛首轮 ROI</div>
+<div class="qc-sub">24场 · 平局率37.5% · 全届最肥窗口</div>
+</div>
+<div class="quick-card">
+<div class="qc-num gold">+101%</div>
+<div class="qc-label">价值平局 ROI</div>
+<div class="qc-sub">赔率≥5才下注 · 33场命中8场</div>
+</div>
+</div>
+
+<!-- 风险提示（一行） -->
+<div class="risk-bar">
+<span class="rb-icon">⚠️</span>
+<span>买平局不是稳赚：命中率仅<strong>28.4%</strong>，前3场贡献<strong>86%</strong>利润，最大回撤约<strong>$1,000</strong>。低胜率高赔率的生意，需资金和心理承受力。</span>
+</div>
+
+<div class="insight-cta-bar">
+<button onclick="document.getElementById('app').scrollIntoView({behavior:'smooth'})">试一试你自己的策略 →</button>
+</div>
+</div>
+
+<div class="app" id="app">
+<!-- ===== PRESET BAR ===== -->
+<div class="preset-bar">
+<span class="label">⚡ 一键预设:</span>
+<button class="preset-btn" onclick="applyPreset('all_draw')">全押平局</button>
+<button class="preset-btn" onclick="applyPreset('group_combo')">小组赛三轮组合</button>
+<button class="preset-btn" onclick="applyPreset('favorite')">热门追击</button>
+<button class="preset-btn" onclick="applyPreset('underdog')">冷门猎手</button>
+<button class="preset-btn" onclick="applyPreset('rank')">排名对决</button>
+<button class="preset-btn clear" onclick="applyPreset('clear')">清空</button>
+</div>
+
+<main>
+<aside class="panel" id="strategy-panel">
+<h2>策略配置 <button class="info-btn" onclick="showStrategyDefs()">📖 策略说明</button></h2>
+<div class="stake-row">
+<label>每场下注金额: $</label>
+<input type="number" id="stake" value="100" min="1" step="10">
+</div>
+<div id="rules-container"></div>
+<button class="btn btn-add" onclick="addRule()">+ 添加规则</button>
+<button class="btn btn-run" onclick="runBacktest()">▶ 运行回测</button>
+</aside>
+
+<section class="panel" id="results-panel">
+<h2>回测结果</h2>
+<div id="results-content">
+<div class="empty">点击「运行回测」查看结果</div>
+</div>
+</section>
+</main>
+</div>
+
+<!-- ===== MODAL ===== -->
+<div class="modal-overlay" id="modal-overlay" onclick="if(event.target===this)closeModal()">
+<div class="modal">
+<button class="modal-close" onclick="closeModal()">✕ 关闭</button>
+<h2>📖 押注策略定义</h2>
+<div class="modal-sub">每种策略的定义、逻辑和示例说明</div>
+<div id="strategy-defs"></div>
+</div>
+</div>
+
+<script src="data.js"></script>
+<script>
+const STAGES=[
+{value:'group-stage',label:'小组赛',order:1,hasMatchday:true},
+{value:'round-of-32',label:'32强赛',order:2,hasMatchday:false},
+{value:'round-of-16',label:'16强赛',order:3,hasMatchday:false},
+{value:'quarter-finals',label:'1/4决赛',order:4,hasMatchday:false},
+{value:'semi-finals',label:'半决赛',order:5,hasMatchday:false},
+{value:'third-place',label:'季军赛',order:6,hasMatchday:false},
+{value:'final',label:'决赛',order:7,hasMatchday:false},
+];
+
+const STRATEGIES={
+home:'全主胜',
+draw:'全平',
+away:'全客胜(主队负)',
+favorite:'押热门',
+underdog:'押冷门',
+higher_rank:'押高排名',
+lower_rank:'押低排名',
+value_draw:'价值平局(赔率≥5)',
+};
+
+const STRATEGY_DEFS=[
+{name:'全主胜',key:'home',desc:'无论赔率如何，始终押主队获胜。',example:'例: 美国 vs 墨西哥 → 押美国胜'},
+{name:'全平',key:'draw',desc:'无论赔率如何，始终押平局。2026世界杯回测显示全押平局 ROI +36.12%，是表现最好的基准策略。平局被市场系统性低估——大众倾向押胜负，平局被错杀，留下价值空间。',example:'例: 美国 vs 墨西哥 → 押平局'},
+{name:'全客胜(主队负)',key:'away',desc:'无论赔率如何，始终押客队获胜，即"主队负"。',example:'例: 美国 vs 墨西哥 → 押墨西哥胜'},
+{name:'押热门',key:'favorite',desc:'比较三种赔率（主胜/平/客胜），押赔率最低的那一路。赔率越低说明市场认为该结果越可能发生。2026回测ROI +2.95%，勉强盈利。',example:'例: 主胜赔率1.5、平4.0、客胜6.0 → 押主胜'},
+{name:'押冷门',key:'underdog',desc:'比较三种赔率，押赔率最高的那一路。赔率越高意味着市场认为越不可能发生，但一旦命中回报极高。2026回测ROI -58.10%，亏损严重。',example:'例: 主胜1.5、平4.0、客胜6.0 → 押客胜'},
+{name:'押高排名',key:'higher_rank',desc:'根据FIFA排名，押排名更靠前（数字更小）的队伍胜。排名差距越大理论上实力差距越大。',example:'例: 美国(排名15) vs 巴西(排名5) → 押巴西胜'},
+{name:'押低排名',key:'lower_rank',desc:'根据FIFA排名，押排名更靠后（数字更大）的队伍胜，即押实力较弱的一方爆冷。',example:'例: 美国(排名15) vs 巴西(排名5) → 押美国胜'},
+{name:'价值平局(赔率≥5)',key:'value_draw',desc:'仅当平局赔率≥5时才押平局，否则该场不下注。赔率≥5意味着市场认为平局概率≤20%，但实际平局率高于此值时存在价值。2026回测33场入选，ROI +101.30%，是所有策略中收益最高的。',example:'例: 平局赔率5.5 → 押平局；平局赔率3.0 → 跳过'},
+];
+
+const SIDE_LABEL={home:'主胜',draw:'平局',away:'客胜'};
+const STAGE_LABEL={};
+STAGES.forEach(s=>STAGE_LABEL[s.value]=s.label);
+
+const PRESETS={
+all_draw:[
+{stage:'group-stage',matchday:1,strategy:'draw'},
+{stage:'group-stage',matchday:2,strategy:'draw'},
+{stage:'group-stage',matchday:3,strategy:'draw'},
+{stage:'round-of-32',matchday:0,strategy:'draw'},
+{stage:'round-of-16',matchday:0,strategy:'draw'},
+{stage:'quarter-finals',matchday:0,strategy:'draw'},
+{stage:'semi-finals',matchday:0,strategy:'draw'},
+{stage:'third-place',matchday:0,strategy:'draw'},
+{stage:'final',matchday:0,strategy:'draw'},
+],
+group_combo:[
+{stage:'group-stage',matchday:1,strategy:'draw'},
+{stage:'group-stage',matchday:2,strategy:'away'},
+{stage:'group-stage',matchday:3,strategy:'favorite'},
+],
+favorite:[
+{stage:'group-stage',matchday:1,strategy:'favorite'},
+{stage:'group-stage',matchday:2,strategy:'favorite'},
+{stage:'group-stage',matchday:3,strategy:'favorite'},
+{stage:'round-of-32',matchday:0,strategy:'favorite'},
+{stage:'round-of-16',matchday:0,strategy:'favorite'},
+{stage:'quarter-finals',matchday:0,strategy:'favorite'},
+{stage:'semi-finals',matchday:0,strategy:'favorite'},
+{stage:'final',matchday:0,strategy:'favorite'},
+],
+underdog:[
+{stage:'group-stage',matchday:1,strategy:'underdog'},
+{stage:'group-stage',matchday:2,strategy:'underdog'},
+{stage:'group-stage',matchday:3,strategy:'underdog'},
+{stage:'round-of-32',matchday:0,strategy:'underdog'},
+{stage:'round-of-16',matchday:0,strategy:'underdog'},
+],
+rank:[
+{stage:'group-stage',matchday:1,strategy:'higher_rank'},
+{stage:'group-stage',matchday:2,strategy:'lower_rank'},
+{stage:'group-stage',matchday:3,strategy:'higher_rank'},
+{stage:'round-of-32',matchday:0,strategy:'higher_rank'},
+{stage:'round-of-16',matchday:0,strategy:'lower_rank'},
+],
+clear:[],
+};
+
+let rules=[];
+let ruleId=0;
+let profitChart=null,stageChart=null;
+
+function addRule(stage='group-stage',matchday=1,strategy='draw'){
+rules.push({id:++ruleId,stage,matchday,strategy});
+renderRules();
+}
+
+function removeRule(id){
+rules=rules.filter(r=>r.id!==id);
+renderRules();
+}
+
+function updateRule(id,field,val){
+const r=rules.find(x=>x.id===id);
+if(!r)return;
+r[field]=val;
+if(field==='stage'){
+const st=STAGES.find(s=>s.value===val);
+if(!st.hasMatchday)r.matchday=0;
+else if(!r.matchday)r.matchday=1;
+}
+renderRules();
+}
+
+function applyPreset(name){
+document.querySelectorAll('.preset-btn').forEach(b=>b.classList.remove('active'));
+if(name!=='clear'){
+event.target.classList.add('active');
+}
+rules=[];
+ruleId=0;
+PRESETS[name].forEach(p=>addRule(p.stage,p.matchday,p.strategy));
+if(name==='clear'){
+renderRules();
+document.getElementById('results-content').innerHTML='<div class="empty">已清空，请添加规则后运行回测</div>';
+}else{
+runBacktest();
+}
+}
+
+function filterMatches(rule){
+return MATCH_DATA.filter(m=>{
+if(m.stage!==rule.stage)return false;
+if(rule.stage==='group-stage'&&rule.matchday&&m.matchday!==rule.matchday)return false;
+return true;
+});
+}
+
+function getBetSide(m,strategy){
+switch(strategy){
+case 'home':return 'home';
+case 'draw':return 'draw';
+case 'away':return 'away';
+case 'favorite':{const o={home:m.homeOdds,draw:m.drawOdds,away:m.awayOdds};return Object.keys(o).reduce((a,b)=>o[a]<=o[b]?a:b);}
+case 'underdog':{const o={home:m.homeOdds,draw:m.drawOdds,away:m.awayOdds};return Object.keys(o).reduce((a,b)=>o[a]>=o[b]?a:b);}
+case 'higher_rank':return m.homeRank<m.awayRank?'home':'away';
+case 'lower_rank':return m.homeRank>m.awayRank?'home':'away';
+case 'value_draw':return m.drawOdds>=5?'draw':null;
+default:return null;
+}
+}
+
+function renderRules(){
+const c=document.getElementById('rules-container');
+c.innerHTML='';
+if(rules.length===0){
+c.innerHTML='<div class="empty" style="padding:20px">暂无规则，点击下方添加或使用一键预设</div>';
+return;
+}
+rules.forEach(r=>{
+const st=STAGES.find(s=>s.value===r.stage);
+const count=filterMatches(r).length;
+const div=document.createElement('div');
+div.className='rule-card';
+let mdHtml='';
+if(st.hasMatchday){
+mdHtml=`<div><label>轮次</label><select onchange="updateRule(${r.id},'matchday',parseInt(this.value))">
+${[1,2,3].map(d=>`<option value="${d}" ${r.matchday===d?'selected':''}>第${d}轮</option>`).join('')}
+</select></div>`;
+}else{
+mdHtml='<div></div>';
+}
+div.innerHTML=`<div class="rule-header"><span class="rule-title">规则 ${r.id}</span><button class="remove-btn" onclick="removeRule(${r.id})">删除</button></div>
+<div class="rule-fields"><div><label>阶段</label><select onchange="updateRule(${r.id},'stage',this.value)">
+${STAGES.map(s=>`<option value="${s.value}" ${r.stage===s.value?'selected':''}>${s.label}</option>`).join('')}
+</select></div>${mdHtml}
+<div class="rule-fields full"><label>押注策略</label><select onchange="updateRule(${r.id},'strategy',this.value)">
+${Object.entries(STRATEGIES).map(([k,v])=>`<option value="${k}" ${r.strategy===k?'selected':''}>${v}</option>`).join('')}
+</select></div></div>
+<div class="rule-count">覆盖 ${count} 场比赛</div>`;
+c.appendChild(div);
+});
+}
+
+function runBacktest(){
+const stake=parseFloat(document.getElementById('stake').value)||100;
+const betMap=new Map();
+rules.forEach(rule=>{
+filterMatches(rule).forEach(m=>{
+if(!betMap.has(m.n)){
+const side=getBetSide(m,rule.strategy);
+if(side)betMap.set(m.n,{side,ruleId:rule.id,strategy:rule.strategy});
+}
+});
+});
+let totalStake=0,totalReturn=0,hits=0;
+const details=[];
+betMap.forEach((bet,n)=>{
+const m=MATCH_DATA.find(x=>x.n===n);
+if(!m)return;
+const odds=m[bet.side+'Odds'];
+const hit=m.result===bet.side;
+const net=hit?stake*(odds-1):-stake;
+totalStake+=stake;
+if(hit){totalReturn+=stake*odds;hits++;}
+details.push({...m,betSide:bet.side,odds,hit,net,stake,strategy:bet.strategy});
+});
+details.sort((a,b)=>a.n-b.n);
+let cum=0;
+details.forEach(d=>{cum+=d.net;d.cumProfit=cum;});
+const netProfit=totalReturn-totalStake;
+const roi=totalStake>0?(netProfit/totalStake*100):0;
+const winRate=details.length>0?(hits/details.length*100):0;
+renderResults({details,totalStake,totalReturn,netProfit,roi,winRate,hits,totalBets:details.length});
+}
+
+function renderResults(r){
+const el=document.getElementById('results-content');
+if(r.totalBets===0){
+el.innerHTML='<div class="empty">没有匹配的比赛，请添加规则</div>';
+return;
+}
+const roiCls=r.roi>=0?'pos':'neg';
+const profitCls=r.netProfit>=0?'pos':'neg';
+el.innerHTML=`<div class="kpi-grid">
+<div class="kpi-card"><div class="label">收益率 ROI</div><div class="value ${roiCls}">${r.roi.toFixed(2)}%</div></div>
+<div class="kpi-card"><div class="label">胜率</div><div class="value neu">${r.winRate.toFixed(1)}%</div></div>
+<div class="kpi-card"><div class="label">净收益</div><div class="value ${profitCls}">$${r.netProfit.toFixed(2)}</div></div>
+<div class="kpi-card"><div class="label">总下注</div><div class="value" style="color:#e0e1dd;font-size:20px">${r.totalBets}场 / ${r.hits}中</div></div>
+</div>
+<div class="chart-box"><h3>累积收益曲线</h3><canvas id="profitChart" height="200"></canvas></div>
+<div class="chart-box"><h3>各阶段收益对比</h3><canvas id="stageChart" height="160"></canvas></div>
+<div class="table-box"><h3>💰 最赚的5场比赛</h3><div id="top-table"></div></div>
+<div class="table-box"><h3>📋 全部场次明细</h3><div id="detail-table"></div></div>`;
+renderProfitChart(r.details);
+renderStageChart(r.details);
+renderTopTable(r.details);
+renderDetailTable(r.details);
+}
+
+function renderProfitChart(details){
+const ctx=document.getElementById('profitChart');
+if(profitChart)profitChart.destroy();
+const labels=details.map((d,i)=>'#'+d.n);
+const data=details.map(d=>d.cumProfit);
+profitChart=new Chart(ctx,{type:'line',data:{labels,datasets:[{label:'累积净收益',data,borderColor:'#4caf50',backgroundColor:'rgba(76,175,80,.1)',fill:true,tension:.3,pointRadius:2}]},options:{responsive:true,plugins:{legend:{display:false}},scales:{y:{ticks:{color:'#778da9',callback:v=>'$'+v}},x:{ticks:{color:'#778da9',maxTicksLimit:15}}}}});
+}
+
+function renderStageChart(details){
+const ctx=document.getElementById('stageChart');
+if(stageChart)stageChart.destroy();
+const stageMap={};
+details.forEach(d=>{
+const sl=STAGE_LABEL[d.stage]||d.stage;
+if(!stageMap[sl])stageMap[sl]={profit:0,count:0,hits:0};
+stageMap[sl].profit+=d.net;
+stageMap[sl].count++;
+if(d.hit)stageMap[sl].hits++;
+});
+const labels=Object.keys(stageMap);
+const profits=labels.map(k=>stageMap[k].profit);
+const colors=profits.map(p=>p>=0?'#4caf50':'#f44336');
+stageChart=new Chart(ctx,{type:'bar',data:{labels,datasets:[{label:'净收益',data:profits,backgroundColor:colors}]},options:{responsive:true,plugins:{legend:{display:false}},scales:{y:{ticks:{color:'#778da9',callback:v=>'$'+v}},x:{ticks:{color:'#778da9'}}}}});
+}
+
+function renderTopTable(details){
+const top=[...details].sort((a,b)=>b.net-a.net).slice(0,5);
+const html=`<table><thead><tr><th>场次</th><th>比赛</th><th>押注</th><th>赔率</th><th>赛果</th><th>净收益</th></tr></thead><tbody>
+${top.map(d=>`<tr><td>#${d.n}</td><td>${d.homeZh} vs ${d.awayZh}</td><td><span class="tag tag-${d.betSide}">${SIDE_LABEL[d.betSide]}</span></td><td>${d.odds.toFixed(2)}</td><td class="${d.hit?'hit-yes':'hit-no'}">${SIDE_LABEL[d.result]}</td><td class="${d.net>=0?'hit-yes':'hit-no'}">$${d.net.toFixed(2)}</td></tr>`).join('')}
+</tbody></table>`;
+document.getElementById('top-table').innerHTML=html;
+}
+
+function renderDetailTable(details){
+const html=`<table><thead><tr><th>#</th><th>阶段</th><th>比赛</th><th>押注</th><th>赔率</th><th>赛果</th><th>比分</th><th>净收益</th><th>累积</th></tr></thead><tbody>
+${details.map(d=>`<tr><td>${d.n}</td><td>${STAGE_LABEL[d.stage]||d.stage}</td><td>${d.homeZh} vs ${d.awayZh}</td><td><span class="tag tag-${d.betSide}">${SIDE_LABEL[d.betSide]}</span></td><td>${d.odds.toFixed(2)}</td><td class="${d.hit?'hit-yes':'hit-no'}">${SIDE_LABEL[d.result]}</td><td>${d.score}</td><td class="${d.net>=0?'hit-yes':'hit-no'}">$${d.net.toFixed(2)}</td><td style="color:#778da9">$${d.cumProfit.toFixed(0)}</td></tr>`).join('')}
+</tbody></table>`;
+document.getElementById('detail-table').innerHTML=html;
+}
+
+/* ===== MODAL ===== */
+function showStrategyDefs(){
+const c=document.getElementById('strategy-defs');
+c.innerHTML=STRATEGY_DEFS.map(s=>`<div class="strategy-def">
+<div class="sd-name">${s.name}</div>
+<div class="sd-desc">${s.desc}</div>
+<div class="sd-example">${s.example}</div>
+</div>`).join('');
+document.getElementById('modal-overlay').classList.add('show');
+}
+function closeModal(){
+document.getElementById('modal-overlay').classList.remove('show');
+}
+
+/* ===== INSIGHT CHARTS ===== */
+function renderInsightCharts(){
+const baseOpts={responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{y:{ticks:{color:'#778da9'},grid:{color:'#1b263b'}},x:{ticks:{color:'#778da9'},grid:{display:false}}}};
+
+// 1. 近六届平局率
+const c1=document.getElementById('insightDrawRate');
+if(c1)new Chart(c1,{type:'bar',data:{
+labels:['2002','2006','2010','2014','2018','2022','2026'],
+datasets:[{data:[29.7,26.6,28.1,26.6,21.9,23.4,27.9],backgroundColor:['#415a77','#415a77','#415a77','#415a77','#415a77','#415a77','#4caf50'],borderRadius:4}]
+},options:{...baseOpts,plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>c.parsed.y+'%'}}},scales:{y:{ticks:{color:'#778da9',callback:v=>v+'%'},grid:{color:'#1b263b'}},x:{ticks:{color:'#778da9'},grid:{display:false}}}}});
+
+// 2. 小组赛各轮平局率
+const c2=document.getElementById('insightRoundRate');
+if(c2)new Chart(c2,{type:'bar',data:{
+labels:['第1轮','第2轮','第3轮'],
+datasets:[{data:[37.5,20.8,25],backgroundColor:['#4caf50','#ffd700','#f44336'],borderRadius:4}]
+},options:{...baseOpts,scales:{y:{ticks:{color:'#778da9',callback:v=>v+'%'},grid:{color:'#1b263b'}},x:{ticks:{color:'#778da9'},grid:{display:false}}}}});
+
+// 3. 各策略ROI对比
+const c3=document.getElementById('insightStrategyROI');
+if(c3)new Chart(c3,{type:'bar',data:{
+labels:['价值平局','全押平局','押热门','全主胜','全客胜','押冷门'],
+datasets:[{data:[101.3,36.12,2.95,-12.73,-43.53,-58.1],backgroundColor:['#4caf50','#4caf50','#ffd700','#f44336','#f44336','#f44336'],borderRadius:4}]
+},options:{...baseOpts,indexAxis:'y',scales:{x:{ticks:{color:'#778da9',callback:v=>v+'%'},grid:{color:'#1b263b'}},y:{ticks:{color:'#778da9',font:{size:11}},grid:{display:false}}}}});
+}
+
+// ===== INIT: default to all_draw preset =====
+applyPreset('all_draw');
+document.querySelector('.preset-btn').classList.add('active');
+</script>
+</body>
+</html>

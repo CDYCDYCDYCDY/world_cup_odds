@@ -1,0 +1,2 @@
+﻿strategy,matches_bet,hits,hit_rate,total_stake,total_net,roi_pct,max_drawdown,top3_contribution,top3_share,skipped_same_rank,skipped_no_price,skipped_unsettled,skipped_quality
+underdog_h15_no (弱队受让1.5球后胜),103,62,60.19,10300,-530.6,-5.15,1526.97,772.01,-145.5,0,0,0,1

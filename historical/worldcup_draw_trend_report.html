@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>2010-2026 世界杯常规时间平局率趋势</title>
+<script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
+<style>
+:root{--red:#c83e3e;--green:#23845b;--blue:#315f9d;--ink:#1f2937;--muted:#64748b;--line:#e2e8f0;--bg:#f7f8fa;--card:#fff}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC",sans-serif;line-height:1.6}main{max-width:1080px;margin:auto;padding:32px 24px 56px}h1{font-size:28px;margin:0 0 6px}h2{font-size:20px;margin:32px 0 14px}.sub{color:var(--muted);font-size:14px}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:24px 0}.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px}.card b{display:block;font-size:26px;margin:4px 0}.up{color:var(--red)}.down{color:var(--green)}.note{background:#fff7ed;border-left:4px solid #d97706;padding:14px 16px;border-radius:6px;margin:18px 0}.chart{height:360px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:8px}table{width:100%;border-collapse:collapse;background:var(--card);font-size:14px}th,td{padding:10px 12px;border-bottom:1px solid var(--line);text-align:right}th:first-child,td:first-child{text-align:left}th{background:#f1f5f9}.conclusion{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:20px}.source{font-size:13px;color:var(--muted)}@media(max-width:720px){.cards{grid-template-columns:1fr}main{padding:20px 12px}.chart{height:320px;overflow:hidden}table{font-size:12px}th,td{padding:8px 5px}}
+</style></head><body><main>
+<h1>2010-2026 世界杯常规时间平局率趋势</h1>
+<div class="sub">只看 90 分钟 + 补时赛果；不把加时赛或点球大战算入常规时间胜负。2026 年全届 104 场，决赛已计入。</div>
+<div class="cards">
+<div class="card"><span>2026 小组赛平局率</span><b class="up">27.78%</b><small>历史四届合计 21.88%，高 5.90 个百分点</small></div>
+<div class="card"><span>2026 小组首轮平局率</span><b class="up">37.50%</b><small>历史四届合计 25.00%，高 12.50 个百分点</small></div>
+<div class="card"><span>2026 淘汰赛平局率</span><b class="down">28.12%</b><small>历史四届合计 34.38%，差异 -6.25 个百分点</small></div>
+</div>
+<div class="note"><b>结论先行：</b>2026 年的方向确实符合“小组赛平局更多、淘汰赛平局更少”的预设，但不能称为清晰的长期趋势。小组赛平局率是从 2014/2018 低位反弹，尚未超过 2010；淘汰赛则回到接近 2010 的水平。与 2010-2022 合并样本相比，两项差异的 p 值分别为 0.3136 和 0.5370，均未达到常用 5% 显著性标准。</div>
+<h2>小组赛与淘汰赛平局率</h2><div id="trend" class="chart"></div>
+<h2>小组赛第 1 / 2 / 3 轮</h2><div id="rounds" class="chart"></div>
+<h2>精确数据</h2><div style="overflow:auto"><table><thead><tr><th>年份</th><th>小组平局</th><th>小组平局率</th><th>第1轮</th><th>第2轮</th><th>第3轮</th><th>淘汰赛平局</th><th>淘汰赛平局率</th></tr></thead><tbody><tr><td>2010</td><td>14/48</td><td>29.17%</td><td>37.50%</td><td>25.00%</td><td>25.00%</td><td>4/16</td><td>25.00%</td></tr><tr><td>2014</td><td>9/48</td><td>18.75%</td><td>12.50%</td><td>25.00%</td><td>18.75%</td><td>8/16</td><td>50.00%</td></tr><tr><td>2018</td><td>9/48</td><td>18.75%</td><td>18.75%</td><td>12.50%</td><td>25.00%</td><td>5/16</td><td>31.25%</td></tr><tr><td>2022</td><td>10/48</td><td>20.83%</td><td>31.25%</td><td>25.00%</td><td>6.25%</td><td>5/16</td><td>31.25%</td></tr><tr><td>2026</td><td>20/72</td><td>27.78%</td><td>37.50%</td><td>20.83%</td><td>25.00%</td><td>9/32</td><td>28.12%</td></tr></tbody></table></div>
+<h2>如何理解</h2><div class="conclusion"><ol>
+<li><b>小组赛：</b>2010 为 29.17%，2014/2018 降至 18.75%，2022 回升至 20.83%，2026 为 27.78%。形状更像“先降后升”，而不是单调上升。</li>
+<li><b>第一轮：</b>2026 的 37.50% 很高，但与 2010 完全相同；它是高位重现，不是历史新高。</li>
+<li><b>第三轮：</b>2026 为 25.00%，明显高于 2022 的 6.25%，但并未超过 2010/2018 的 25.00%。</li>
+<li><b>淘汰赛：</b>2026 为 28.12%，与 2010 的 25.00% 接近，因此也不是持续下降。</li>
+<li><b>样本边界：</b>每届旧赛制小组轮次只有 16 场，2026 为 24 场；淘汰赛 2026 因扩军共 32 场。单届比例容易被数场比赛显著改变。</li>
+</ol></div>
+<h2>数据来源与口径</h2><p class="source">2010/2014/2018/2022：openfootball/worldcup.json，Public Domain；每届 64 场。2026：本项目 Polymarket 已结算 1X2 赛果，共 104 场。历史 Polymarket 完整逐场 1X2 赔率未找到可靠归档，因此本报告不做历史赔率或收益回测。所有淘汰赛均按 score.ft / result_regular 判断常规时间平局。</p>
+<script>
+const years=[2010, 2014, 2018, 2022, 2026];
+echarts.init(document.getElementById('trend')).setOption({
+ tooltip:{trigger:'axis',valueFormatter:v=>v.toFixed(2)+'%'},legend:{data:['小组赛','淘汰赛']},
+ xAxis:{type:'category',data:years},yAxis:{type:'value',name:'平局率',min:0,max:55,axisLabel:{formatter:'{value}%'}},
+ series:[
+  {name:'小组赛',type:'line',data:[29.17, 18.75, 18.75, 20.83, 27.78],symbol:'circle',symbolSize:8,lineStyle:{width:3,color:'#c83e3e'},itemStyle:{color:'#c83e3e'}},
+  {name:'淘汰赛',type:'line',data:[25.0, 50.0, 31.25, 31.25, 28.12],symbol:'diamond',symbolSize:9,lineStyle:{width:3,color:'#315f9d'},itemStyle:{color:'#315f9d'}}
+ ]
+});
+echarts.init(document.getElementById('rounds')).setOption({
+ tooltip:{trigger:'axis',axisPointer:{type:'shadow'},valueFormatter:v=>v.toFixed(2)+'%'},legend:{data:['第1轮','第2轮','第3轮']},
+ xAxis:{type:'category',data:years},yAxis:{type:'value',name:'平局率',min:0,max:45,axisLabel:{formatter:'{value}%'}},
+ series:[
+  {name:'第1轮',type:'bar',data:[37.5, 12.5, 18.75, 31.25, 37.5],itemStyle:{color:'#c83e3e'}},
+  {name:'第2轮',type:'bar',data:[25.0, 25.0, 12.5, 25.0, 20.83],itemStyle:{color:'#d9985f'}},
+  {name:'第3轮',type:'bar',data:[25.0, 18.75, 25.0, 6.25, 25.0],itemStyle:{color:'#315f9d'}}
+ ]
+});
+window.addEventListener('resize',()=>{echarts.getInstanceByDom(document.getElementById('trend')).resize();echarts.getInstanceByDom(document.getElementById('rounds')).resize();});
+</script></main></body></html>

@@ -1,0 +1,850 @@
+﻿strategy,title,kickoff_beijing,bet_side,price_quality,stake,odds,result,hit,net
+S1_always_draw,Mexico vs. South Africa,2026-06-12 03:00,draw,high,100.0,4.8216,home,N,-100.0
+S1_always_draw,Korea Republic vs. Czechia,2026-06-12 10:00,draw,high,100.0,3.125,home,N,-100.0
+S1_always_draw,Canada vs. Bosnia-Herzegovina,2026-06-13 03:00,draw,high,100.0,3.5715,draw,Y,257.15
+S1_always_draw,United States vs. Paraguay,2026-06-13 09:00,draw,high,100.0,3.3333,home,N,-100.0
+S1_always_draw,Qatar vs. Switzerland,2026-06-14 03:00,draw,high,100.0,7.6923,draw,Y,669.23
+S1_always_draw,Brazil vs. Morocco,2026-06-14 06:00,draw,high,100.0,3.8462,draw,Y,284.62
+S1_always_draw,Haiti vs. Scotland,2026-06-14 09:00,draw,high,100.0,4.7619,away,N,-100.0
+S1_always_draw,Australia vs. Türkiye,2026-06-14 12:00,draw,high,100.0,3.8462,home,N,-100.0
+S1_always_draw,Germany vs. Curaçao,2026-06-15 01:00,draw,high,100.0,27.5936,home,N,-100.0
+S1_always_draw,Netherlands vs. Japan,2026-06-15 04:00,draw,high,100.0,3.4515,draw,Y,245.15
+S1_always_draw,Côte d'Ivoire vs. Ecuador,2026-06-15 07:00,draw,high,100.0,2.9412,home,N,-100.0
+S1_always_draw,Sweden vs. Tunisia,2026-06-15 10:00,draw,high,100.0,3.4501,home,N,-100.0
+S1_always_draw,Spain vs. Cabo Verde,2026-06-16 00:00,draw,high,100.0,18.7228,draw,Y,1772.28
+S1_always_draw,Belgium vs. Egypt,2026-06-16 03:00,draw,high,100.0,4.1689,draw,Y,316.89
+S1_always_draw,Saudi Arabia vs. Uruguay,2026-06-16 06:00,draw,high,100.0,4.548,draw,Y,354.8
+S1_always_draw,IR Iran vs. New Zealand,2026-06-16 09:00,draw,high,100.0,3.5752,draw,Y,257.52
+S1_always_draw,France vs. Senegal,2026-06-17 03:00,draw,high,100.0,4.5553,home,N,-100.0
+S1_always_draw,Iraq vs. Norway,2026-06-17 06:00,draw,high,100.0,7.1731,away,N,-100.0
+S1_always_draw,Argentina vs. Algeria,2026-06-17 09:00,draw,high,100.0,4.3491,home,N,-100.0
+S1_always_draw,Austria vs. Jordan,2026-06-17 12:00,draw,high,100.0,5.1194,home,N,-100.0
+S1_always_draw,Portugal vs. DR Congo,2026-06-18 01:00,draw,high,100.0,5.8828,draw,Y,488.28
+S1_always_draw,England vs. Croatia,2026-06-18 04:00,draw,high,100.0,3.8462,home,N,-100.0
+S1_always_draw,Ghana vs. Panama,2026-06-18 07:00,draw,high,100.0,3.2263,home,N,-100.0
+S1_always_draw,Uzbekistan vs. Colombia,2026-06-18 10:00,draw,high,100.0,5.0,away,N,-100.0
+S1_always_draw,Czechia vs. South Africa,2026-06-19 00:00,draw,high,100.0,3.7038,draw,Y,270.38
+S1_always_draw,Switzerland vs. Bosnia-Herzegovina,2026-06-19 03:00,draw,high,100.0,4.1736,home,N,-100.0
+S1_always_draw,Canada vs. Qatar,2026-06-19 06:00,draw,high,100.0,5.8827,home,N,-100.0
+S1_always_draw,Mexico vs. Korea Republic,2026-06-19 09:00,draw,high,100.0,3.3334,home,N,-100.0
+S1_always_draw,United States vs. Australia,2026-06-20 03:00,draw,high,100.0,4.3777,home,N,-100.0
+S1_always_draw,Scotland vs. Morocco,2026-06-20 06:00,draw,high,100.0,3.7046,away,N,-100.0
+S1_always_draw,Brazil vs. Haiti,2026-06-20 08:30,draw,high,100.0,12.7793,home,N,-100.0
+S1_always_draw,Türkiye vs. Paraguay,2026-06-20 11:00,draw,high,100.0,3.4483,away,N,-100.0
+S1_always_draw,Netherlands vs. Sweden,2026-06-21 01:00,draw,high,100.0,4.1667,home,N,-100.0
+S1_always_draw,Germany vs. Côte d'Ivoire,2026-06-21 04:00,draw,high,100.0,5.2478,home,N,-100.0
+S1_always_draw,Ecuador vs. Curaçao,2026-06-21 08:00,draw,high,100.0,9.0909,draw,Y,809.09
+S1_always_draw,Tunisia vs. Japan,2026-06-21 12:00,draw,high,100.0,4.7626,away,N,-100.0
+S1_always_draw,Spain vs. Saudi Arabia,2026-06-22 00:00,draw,high,100.0,12.5,home,N,-100.0
+S1_always_draw,Belgium vs. IR Iran,2026-06-22 03:00,draw,high,100.0,5.003,draw,Y,400.3
+S1_always_draw,Uruguay vs. Cabo Verde,2026-06-22 06:00,draw,high,100.0,4.5455,draw,Y,354.55
+S1_always_draw,New Zealand vs. Egypt,2026-06-22 09:00,draw,high,100.0,4.1667,away,N,-100.0
+S1_always_draw,Argentina vs. Austria,2026-06-23 01:00,draw,high,100.0,4.5815,home,N,-100.0
+S1_always_draw,France vs. Iraq,2026-06-23 05:00,draw,high,100.0,14.2857,home,N,-100.0
+S1_always_draw,Norway vs. Senegal,2026-06-23 08:00,draw,high,100.0,3.4483,home,N,-100.0
+S1_always_draw,Jordan vs. Algeria,2026-06-23 11:00,draw,high,100.0,4.4618,away,N,-100.0
+S1_always_draw,Portugal vs. Uzbekistan,2026-06-24 01:00,draw,high,100.0,9.0919,home,N,-100.0
+S1_always_draw,England vs. Ghana,2026-06-24 04:00,draw,high,100.0,7.6923,draw,Y,669.23
+S1_always_draw,Panama vs. Croatia,2026-06-24 07:00,draw,high,100.0,4.7637,away,N,-100.0
+S1_always_draw,Colombia vs. DR Congo,2026-06-24 10:00,draw,high,100.0,4.1682,home,N,-100.0
+S1_always_draw,Switzerland vs. Canada,2026-06-25 03:00,draw,high,100.0,3.0813,home,N,-100.0
+S1_always_draw,Bosnia-Herzegovina vs. Qatar,2026-06-25 03:00,draw,high,100.0,5.8824,home,N,-100.0
+S1_always_draw,Morocco vs. Haiti,2026-06-25 06:00,draw,high,100.0,7.1429,home,N,-100.0
+S1_always_draw,Scotland vs. Brazil,2026-06-25 06:00,draw,high,100.0,5.8824,away,N,-100.0
+S1_always_draw,Czechia vs. Mexico,2026-06-25 09:00,draw,high,100.0,4.1667,away,N,-100.0
+S1_always_draw,South Africa vs. Korea Republic,2026-06-25 09:00,draw,high,100.0,3.8462,home,N,-100.0
+S1_always_draw,Ecuador vs. Germany,2026-06-26 04:00,draw,high,100.0,4.9228,home,N,-100.0
+S1_always_draw,Curaçao vs. Côte d'Ivoire,2026-06-26 04:00,draw,high,100.0,8.4425,away,N,-100.0
+S1_always_draw,Japan vs. Sweden,2026-06-26 07:00,draw,high,100.0,3.5587,draw,Y,255.87
+S1_always_draw,Tunisia vs. Netherlands,2026-06-26 07:00,draw,high,100.0,11.1111,away,N,-100.0
+S1_always_draw,Paraguay vs. Australia,2026-06-26 10:00,draw,high,100.0,2.3921,draw,Y,139.21
+S1_always_draw,Türkiye vs. United States,2026-06-26 10:00,draw,high,100.0,4.348,home,N,-100.0
+S1_always_draw,Norway vs. France,2026-06-27 03:00,draw,high,100.0,5.5572,away,N,-100.0
+S1_always_draw,Senegal vs. Iraq,2026-06-27 03:00,draw,medium,100.0,7.1429,home,N,-100.0
+S1_always_draw,Cabo Verde vs. Saudi Arabia,2026-06-27 08:00,draw,high,100.0,3.449,draw,Y,244.9
+S1_always_draw,Uruguay vs. Spain,2026-06-27 08:00,draw,high,100.0,3.8461,away,N,-100.0
+S1_always_draw,Egypt vs. IR Iran,2026-06-27 11:00,draw,high,100.0,2.7778,draw,Y,177.78
+S1_always_draw,New Zealand vs. Belgium,2026-06-27 11:00,draw,high,100.0,8.4208,away,N,-100.0
+S1_always_draw,Panama vs. England,2026-06-28 05:00,draw,high,100.0,9.0989,away,N,-100.0
+S1_always_draw,Croatia vs. Ghana,2026-06-28 05:00,draw,high,100.0,3.3305,home,N,-100.0
+S1_always_draw,Colombia vs. Portugal,2026-06-28 07:30,draw,high,100.0,4.1672,draw,Y,316.72
+S1_always_draw,Algeria vs. Austria,2026-06-28 10:00,draw,high,100.0,2.1303,draw,Y,113.03
+S1_always_draw,South Africa vs. Canada,2026-06-29 03:00,draw,high,100.0,3.4485,away,N,-100.0
+S1_always_draw,Brazil vs. Japan,2026-06-30 01:00,draw,high,100.0,3.7039,home,N,-100.0
+S1_always_draw,Netherlands vs. Morocco,2026-06-30 09:00,draw,high,100.0,3.1286,draw,Y,212.86
+S1_always_draw,United States vs. Bosnia and Herzegovina,2026-07-02 08:00,draw,high,100.0,5.2632,home,N,-100.0
+S1_always_draw,Germany vs. Paraguay,2026-06-30 04:30,draw,high,100.0,5.265,draw,Y,426.5
+S1_always_draw,Côte d'Ivoire vs. Norway,2026-07-01 01:00,draw,high,100.0,3.4483,away,N,-100.0
+S1_always_draw,France vs. Sweden,2026-07-01 05:00,draw,high,100.0,6.2638,home,N,-100.0
+S1_always_draw,Australia vs. Egypt,2026-07-04 02:00,draw,high,100.0,2.9412,draw,Y,194.12
+S1_always_draw,Argentina vs. Cabo Verde,2026-07-04 06:00,draw,high,100.0,9.0922,draw,Y,809.22
+S1_always_draw,Mexico vs. Ecuador,2026-07-01 09:00,draw,high,100.0,2.9412,home,N,-100.0
+S1_always_draw,England vs. DR Congo,2026-07-02 00:00,draw,high,100.0,5.3207,home,N,-100.0
+S1_always_draw,Belgium vs. Senegal,2026-07-02 04:00,draw,high,100.0,3.3333,draw,Y,233.33
+S1_always_draw,Spain vs. Austria,2026-07-03 03:00,draw,high,100.0,5.9696,home,N,-100.0
+S1_always_draw,Portugal vs. Croatia,2026-07-03 07:00,draw,high,100.0,3.78,home,N,-100.0
+S1_always_draw,Switzerland vs. Algeria,2026-07-03 11:00,draw,high,100.0,3.2787,home,N,-100.0
+S1_always_draw,Colombia vs. Ghana,2026-07-04 09:30,draw,high,100.0,4.5502,home,N,-100.0
+S1_always_draw,Canada vs. Morocco,2026-07-05 01:00,draw,high,100.0,3.4483,away,N,-100.0
+S1_always_draw,Paraguay vs. France,2026-07-05 05:00,draw,high,100.0,7.1463,away,N,-100.0
+S1_always_draw,Brazil vs. Norway,2026-07-06 04:00,draw,high,100.0,3.7037,away,N,-100.0
+S1_always_draw,Mexico vs. England,2026-07-06 08:00,draw,high,100.0,3.1299,away,N,-100.0
+S1_always_draw,United States vs. Belgium,2026-07-07 08:00,draw,high,100.0,3.4483,away,N,-100.0
+S1_always_draw,Portugal vs. Spain,2026-07-07 03:00,draw,high,100.0,3.5714,away,N,-100.0
+S1_always_draw,Argentina vs. Egypt,2026-07-08 00:00,draw,high,100.0,5.0,home,N,-100.0
+S1_always_draw,Switzerland vs. Colombia,2026-07-08 04:00,draw,high,100.0,3.0303,draw,Y,203.03
+S1_always_draw,France vs. Morocco,2026-07-10 04:00,draw,high,100.0,3.9613,home,N,-100.0
+S1_always_draw,Norway vs. England,2026-07-12 05:00,draw,high,100.0,4.041,draw,Y,304.1
+S1_always_draw,Spain vs. Belgium,2026-07-11 03:00,draw,high,100.0,4.0473,home,N,-100.0
+S1_always_draw,Argentina vs. Switzerland,2026-07-12 09:00,draw,high,100.0,3.6365,draw,Y,263.65
+S1_always_draw,France vs. Spain,2026-07-15 03:00,draw,high,100.0,3.1008,away,N,-100.0
+S1_always_draw,England vs. Argentina,2026-07-16 03:00,draw,high,100.0,2.9851,away,N,-100.0
+S1_always_draw,France vs. England,2026-07-19 05:00,draw,high,100.0,4.3478,away,N,-100.0
+S1_always_draw,Spain vs. Argentina,2026-07-20 03:00,draw,high,100.0,3.125,draw,Y,212.5
+S2_always_home,Mexico vs. South Africa,2026-06-12 03:00,home,high,100.0,1.4299,home,Y,42.99
+S2_always_home,Korea Republic vs. Czechia,2026-06-12 10:00,home,high,100.0,2.6349,home,Y,163.49
+S2_always_home,Canada vs. Bosnia-Herzegovina,2026-06-13 03:00,home,high,100.0,1.852,draw,N,-100.0
+S2_always_home,United States vs. Paraguay,2026-06-13 09:00,home,high,100.0,2.1295,home,Y,112.95
+S2_always_home,Qatar vs. Switzerland,2026-06-14 03:00,home,high,100.0,16.6667,draw,N,-100.0
+S2_always_home,Brazil vs. Morocco,2026-06-14 06:00,home,high,100.0,1.6951,draw,N,-100.0
+S2_always_home,Haiti vs. Scotland,2026-06-14 09:00,home,high,100.0,6.25,away,N,-100.0
+S2_always_home,Australia vs. Türkiye,2026-06-14 12:00,home,high,100.0,5.5556,home,Y,455.56
+S2_always_home,Germany vs. Curaçao,2026-06-15 01:00,home,high,100.0,1.0566,home,Y,5.66
+S2_always_home,Netherlands vs. Japan,2026-06-15 04:00,home,high,100.0,2.1744,draw,N,-100.0
+S2_always_home,Côte d'Ivoire vs. Ecuador,2026-06-15 07:00,home,high,100.0,3.5754,home,Y,257.54
+S2_always_home,Sweden vs. Tunisia,2026-06-15 10:00,home,high,100.0,1.9612,home,Y,96.12
+S2_always_home,Spain vs. Cabo Verde,2026-06-16 00:00,home,high,100.0,1.0754,draw,N,-100.0
+S2_always_home,Belgium vs. Egypt,2026-06-16 03:00,home,high,100.0,1.5629,draw,N,-100.0
+S2_always_home,Saudi Arabia vs. Uruguay,2026-06-16 06:00,home,high,100.0,8.3626,draw,N,-100.0
+S2_always_home,IR Iran vs. New Zealand,2026-06-16 09:00,home,high,100.0,1.8572,draw,N,-100.0
+S2_always_home,France vs. Senegal,2026-06-17 03:00,home,high,100.0,1.4706,home,Y,47.06
+S2_always_home,Iraq vs. Norway,2026-06-17 06:00,home,high,100.0,14.315,away,N,-100.0
+S2_always_home,Argentina vs. Algeria,2026-06-17 09:00,home,high,100.0,1.5386,home,Y,53.86
+S2_always_home,Austria vs. Jordan,2026-06-17 12:00,home,high,100.0,1.4287,home,Y,42.87
+S2_always_home,Portugal vs. DR Congo,2026-06-18 01:00,home,high,100.0,1.2988,draw,N,-100.0
+S2_always_home,England vs. Croatia,2026-06-18 04:00,home,high,100.0,1.7243,home,Y,72.43
+S2_always_home,Ghana vs. Panama,2026-06-18 07:00,home,high,100.0,2.4418,home,Y,144.18
+S2_always_home,Uzbekistan vs. Colombia,2026-06-18 10:00,home,high,100.0,10.5034,away,N,-100.0
+S2_always_home,Czechia vs. South Africa,2026-06-19 00:00,home,high,100.0,1.8538,draw,N,-100.0
+S2_always_home,Switzerland vs. Bosnia-Herzegovina,2026-06-19 03:00,home,high,100.0,1.588,home,Y,58.8
+S2_always_home,Canada vs. Qatar,2026-06-19 06:00,home,high,100.0,1.3166,home,Y,31.66
+S2_always_home,Mexico vs. Korea Republic,2026-06-19 09:00,home,high,100.0,2.0835,home,Y,108.35
+S2_always_home,United States vs. Australia,2026-06-20 03:00,home,high,100.0,1.6726,home,Y,67.26
+S2_always_home,Scotland vs. Morocco,2026-06-20 06:00,home,high,100.0,6.25,away,N,-100.0
+S2_always_home,Brazil vs. Haiti,2026-06-20 08:30,home,high,100.0,1.1239,home,Y,12.39
+S2_always_home,Türkiye vs. Paraguay,2026-06-20 11:00,home,high,100.0,2.0795,away,N,-100.0
+S2_always_home,Netherlands vs. Sweden,2026-06-21 01:00,home,high,100.0,1.7246,home,Y,72.46
+S2_always_home,Germany vs. Côte d'Ivoire,2026-06-21 04:00,home,high,100.0,1.4497,home,Y,44.97
+S2_always_home,Ecuador vs. Curaçao,2026-06-21 08:00,home,high,100.0,1.1765,draw,N,-100.0
+S2_always_home,Tunisia vs. Japan,2026-06-21 12:00,home,high,100.0,9.0958,away,N,-100.0
+S2_always_home,Spain vs. Saudi Arabia,2026-06-22 00:00,home,high,100.0,1.1111,home,Y,11.11
+S2_always_home,Belgium vs. IR Iran,2026-06-22 03:00,home,high,100.0,1.429,draw,N,-100.0
+S2_always_home,Uruguay vs. Cabo Verde,2026-06-22 06:00,home,high,100.0,1.4287,draw,N,-100.0
+S2_always_home,New Zealand vs. Egypt,2026-06-22 09:00,home,high,100.0,6.2607,away,N,-100.0
+S2_always_home,Argentina vs. Austria,2026-06-23 01:00,home,high,100.0,1.4707,home,Y,47.07
+S2_always_home,France vs. Iraq,2026-06-23 05:00,home,high,100.0,1.087,home,Y,8.7
+S2_always_home,Norway vs. Senegal,2026-06-23 08:00,home,high,100.0,2.3811,home,Y,138.11
+S2_always_home,Jordan vs. Algeria,2026-06-23 11:00,home,high,100.0,7.1429,away,N,-100.0
+S2_always_home,Portugal vs. Uzbekistan,2026-06-24 01:00,home,high,100.0,1.1629,home,Y,16.29
+S2_always_home,England vs. Ghana,2026-06-24 04:00,home,high,100.0,1.1907,draw,N,-100.0
+S2_always_home,Panama vs. Croatia,2026-06-24 07:00,home,high,100.0,8.3333,away,N,-100.0
+S2_always_home,Colombia vs. DR Congo,2026-06-24 10:00,home,high,100.0,1.5631,home,Y,56.31
+S2_always_home,Switzerland vs. Canada,2026-06-25 03:00,home,high,100.0,2.5662,home,Y,156.62
+S2_always_home,Bosnia-Herzegovina vs. Qatar,2026-06-25 03:00,home,high,100.0,1.389,home,Y,38.9
+S2_always_home,Morocco vs. Haiti,2026-06-25 06:00,home,high,100.0,1.2195,home,Y,21.95
+S2_always_home,Scotland vs. Brazil,2026-06-25 06:00,home,high,100.0,11.1152,away,N,-100.0
+S2_always_home,Czechia vs. Mexico,2026-06-25 09:00,home,high,100.0,4.5522,away,N,-100.0
+S2_always_home,South Africa vs. Korea Republic,2026-06-25 09:00,home,high,100.0,5.8921,home,Y,489.21
+S2_always_home,Ecuador vs. Germany,2026-06-26 04:00,home,high,100.0,5.2242,home,Y,422.42
+S2_always_home,Curaçao vs. Côte d'Ivoire,2026-06-26 04:00,home,high,100.0,16.6824,away,N,-100.0
+S2_always_home,Japan vs. Sweden,2026-06-26 07:00,home,high,100.0,2.2612,draw,N,-100.0
+S2_always_home,Tunisia vs. Netherlands,2026-06-26 07:00,home,high,100.0,31.4668,away,N,-100.0
+S2_always_home,Paraguay vs. Australia,2026-06-26 10:00,home,high,100.0,2.7027,draw,N,-100.0
+S2_always_home,Türkiye vs. United States,2026-06-26 10:00,home,high,100.0,3.7881,home,Y,278.81
+S2_always_home,Norway vs. France,2026-06-27 03:00,home,high,100.0,7.6952,away,N,-100.0
+S2_always_home,Senegal vs. Iraq,2026-06-27 03:00,home,high,100.0,1.2657,home,Y,26.57
+S2_always_home,Cabo Verde vs. Saudi Arabia,2026-06-27 08:00,home,high,100.0,3.0339,draw,N,-100.0
+S2_always_home,Uruguay vs. Spain,2026-06-27 08:00,home,high,100.0,6.666,away,N,-100.0
+S2_always_home,Egypt vs. IR Iran,2026-06-27 11:00,home,high,100.0,2.7027,draw,N,-100.0
+S2_always_home,New Zealand vs. Belgium,2026-06-27 11:00,home,medium,100.0,13.8965,away,N,-100.0
+S2_always_home,Panama vs. England,2026-06-28 05:00,home,high,100.0,20.0,away,N,-100.0
+S2_always_home,Croatia vs. Ghana,2026-06-28 05:00,home,high,100.0,1.8196,home,Y,81.96
+S2_always_home,Colombia vs. Portugal,2026-06-28 07:30,home,high,100.0,3.847,draw,N,-100.0
+S2_always_home,Algeria vs. Austria,2026-06-28 10:00,home,high,100.0,3.5714,draw,N,-100.0
+S2_always_home,South Africa vs. Canada,2026-06-29 03:00,home,high,100.0,5.557,away,N,-100.0
+S2_always_home,Brazil vs. Japan,2026-06-30 01:00,home,high,100.0,1.7858,home,Y,78.58
+S2_always_home,Netherlands vs. Morocco,2026-06-30 09:00,home,high,100.0,2.4392,draw,N,-100.0
+S2_always_home,United States vs. Bosnia and Herzegovina,2026-07-02 08:00,home,high,100.0,1.3908,home,Y,39.08
+S2_always_home,Germany vs. Paraguay,2026-06-30 04:30,home,high,100.0,1.3514,draw,N,-100.0
+S2_always_home,Côte d'Ivoire vs. Norway,2026-07-01 01:00,home,high,100.0,3.8451,away,N,-100.0
+S2_always_home,France vs. Sweden,2026-07-01 05:00,home,high,100.0,1.2821,home,Y,28.21
+S2_always_home,Australia vs. Egypt,2026-07-04 02:00,home,high,100.0,3.7037,draw,N,-100.0
+S2_always_home,Argentina vs. Cabo Verde,2026-07-04 06:00,home,high,100.0,1.1628,draw,N,-100.0
+S2_always_home,Mexico vs. Ecuador,2026-07-01 09:00,home,high,100.0,2.2728,home,Y,127.28
+S2_always_home,England vs. DR Congo,2026-07-02 00:00,home,high,100.0,1.3034,home,Y,30.34
+S2_always_home,Belgium vs. Senegal,2026-07-02 04:00,home,high,100.0,2.1852,draw,N,-100.0
+S2_always_home,Spain vs. Austria,2026-07-03 03:00,home,high,100.0,1.3202,home,Y,32.02
+S2_always_home,Portugal vs. Croatia,2026-07-03 07:00,home,high,100.0,1.7316,home,Y,73.16
+S2_always_home,Switzerland vs. Algeria,2026-07-03 11:00,home,high,100.0,2.0413,home,Y,104.13
+S2_always_home,Colombia vs. Ghana,2026-07-04 09:30,home,high,100.0,1.451,home,Y,45.1
+S2_always_home,Canada vs. Morocco,2026-07-05 01:00,home,high,100.0,5.5556,away,N,-100.0
+S2_always_home,Paraguay vs. France,2026-07-05 05:00,home,high,100.0,20.0237,away,N,-100.0
+S2_always_home,Brazil vs. Norway,2026-07-06 04:00,home,high,100.0,1.8188,away,N,-100.0
+S2_always_home,Mexico vs. England,2026-07-06 08:00,home,high,100.0,3.1304,away,N,-100.0
+S2_always_home,United States vs. Belgium,2026-07-07 08:00,home,high,100.0,2.7033,away,N,-100.0
+S2_always_home,Portugal vs. Spain,2026-07-07 03:00,home,high,100.0,4.1668,away,N,-100.0
+S2_always_home,Argentina vs. Egypt,2026-07-08 00:00,home,high,100.0,1.3579,home,Y,35.79
+S2_always_home,Switzerland vs. Colombia,2026-07-08 04:00,home,high,100.0,3.7039,draw,N,-100.0
+S2_always_home,France vs. Morocco,2026-07-10 04:00,home,high,100.0,1.6327,home,Y,63.27
+S2_always_home,Norway vs. England,2026-07-12 05:00,home,high,100.0,4.3488,draw,N,-100.0
+S2_always_home,Spain vs. Belgium,2026-07-11 03:00,home,high,100.0,1.6546,home,Y,65.46
+S2_always_home,Argentina vs. Switzerland,2026-07-12 09:00,home,high,100.0,1.7409,draw,N,-100.0
+S2_always_home,France vs. Spain,2026-07-15 03:00,home,high,100.0,2.6501,away,N,-100.0
+S2_always_home,England vs. Argentina,2026-07-16 03:00,home,high,100.0,2.7593,away,N,-100.0
+S2_always_home,France vs. England,2026-07-19 05:00,home,high,100.0,1.7872,away,N,-100.0
+S2_always_home,Spain vs. Argentina,2026-07-20 03:00,home,high,100.0,2.3396,draw,N,-100.0
+S3_always_away,Mexico vs. South Africa,2026-06-12 03:00,away,high,100.0,9.0982,home,N,-100.0
+S3_always_away,Korea Republic vs. Czechia,2026-06-12 10:00,away,high,100.0,3.1276,home,N,-100.0
+S3_always_away,Canada vs. Bosnia-Herzegovina,2026-06-13 03:00,away,high,100.0,5.0,draw,N,-100.0
+S3_always_away,United States vs. Paraguay,2026-06-13 09:00,away,high,100.0,4.2163,home,N,-100.0
+S3_always_away,Qatar vs. Switzerland,2026-06-14 03:00,away,high,100.0,1.2052,draw,N,-100.0
+S3_always_away,Brazil vs. Morocco,2026-06-14 06:00,away,high,100.0,5.8842,draw,N,-100.0
+S3_always_away,Haiti vs. Scotland,2026-06-14 09:00,away,high,100.0,1.5908,away,Y,59.08
+S3_always_away,Australia vs. Türkiye,2026-06-14 12:00,away,high,100.0,1.7544,home,N,-100.0
+S3_always_away,Germany vs. Curaçao,2026-06-15 01:00,away,high,100.0,41.9995,home,N,-100.0
+S3_always_away,Netherlands vs. Japan,2026-06-15 04:00,away,high,100.0,3.7148,draw,N,-100.0
+S3_always_away,Côte d'Ivoire vs. Ecuador,2026-06-15 07:00,away,high,100.0,2.5643,home,N,-100.0
+S3_always_away,Sweden vs. Tunisia,2026-06-15 10:00,away,high,100.0,4.8013,home,N,-100.0
+S3_always_away,Spain vs. Cabo Verde,2026-06-16 00:00,away,high,100.0,43.4827,draw,N,-100.0
+S3_always_away,Belgium vs. Egypt,2026-06-16 03:00,away,high,100.0,6.6708,draw,N,-100.0
+S3_always_away,Saudi Arabia vs. Uruguay,2026-06-16 06:00,away,high,100.0,1.4706,draw,N,-100.0
+S3_always_away,IR Iran vs. New Zealand,2026-06-16 09:00,away,high,100.0,5.0005,draw,N,-100.0
+S3_always_away,France vs. Senegal,2026-06-17 03:00,away,high,100.0,7.7925,home,N,-100.0
+S3_always_away,Iraq vs. Norway,2026-06-17 06:00,away,high,100.0,1.2346,away,Y,23.46
+S3_always_away,Argentina vs. Algeria,2026-06-17 09:00,away,high,100.0,7.7008,home,N,-100.0
+S3_always_away,Austria vs. Jordan,2026-06-17 12:00,away,high,100.0,9.0415,home,N,-100.0
+S3_always_away,Portugal vs. DR Congo,2026-06-18 01:00,away,high,100.0,12.5,draw,N,-100.0
+S3_always_away,England vs. Croatia,2026-06-18 04:00,away,high,100.0,5.5558,home,N,-100.0
+S3_always_away,Ghana vs. Panama,2026-06-18 07:00,away,high,100.0,3.3362,home,N,-100.0
+S3_always_away,Uzbekistan vs. Colombia,2026-06-18 10:00,away,high,100.0,1.3957,away,Y,39.57
+S3_always_away,Czechia vs. South Africa,2026-06-19 00:00,away,high,100.0,4.794,draw,N,-100.0
+S3_always_away,Switzerland vs. Bosnia-Herzegovina,2026-06-19 03:00,away,high,100.0,6.6705,home,N,-100.0
+S3_always_away,Canada vs. Qatar,2026-06-19 06:00,away,high,100.0,11.1111,home,N,-100.0
+S3_always_away,Mexico vs. Korea Republic,2026-06-19 09:00,away,high,100.0,4.1669,home,N,-100.0
+S3_always_away,United States vs. Australia,2026-06-20 03:00,away,high,100.0,5.2643,home,N,-100.0
+S3_always_away,Scotland vs. Morocco,2026-06-20 06:00,away,high,100.0,1.6668,away,Y,66.68
+S3_always_away,Brazil vs. Haiti,2026-06-20 08:30,away,high,100.0,23.3032,home,N,-100.0
+S3_always_away,Türkiye vs. Paraguay,2026-06-20 11:00,away,high,100.0,4.1697,away,Y,316.97
+S3_always_away,Netherlands vs. Sweden,2026-06-21 01:00,away,high,100.0,4.7622,home,N,-100.0
+S3_always_away,Germany vs. Côte d'Ivoire,2026-06-21 04:00,away,high,100.0,8.222,home,N,-100.0
+S3_always_away,Ecuador vs. Curaçao,2026-06-21 08:00,away,high,100.0,17.8673,draw,N,-100.0
+S3_always_away,Tunisia vs. Japan,2026-06-21 12:00,away,high,100.0,1.4426,away,Y,44.26
+S3_always_away,Spain vs. Saudi Arabia,2026-06-22 00:00,away,high,100.0,27.027,home,N,-100.0
+S3_always_away,Belgium vs. IR Iran,2026-06-22 03:00,away,high,100.0,9.0909,draw,N,-100.0
+S3_always_away,Uruguay vs. Cabo Verde,2026-06-22 06:00,away,high,100.0,10.0,draw,N,-100.0
+S3_always_away,New Zealand vs. Egypt,2026-06-22 09:00,away,high,100.0,1.6129,away,Y,61.29
+S3_always_away,Argentina vs. Austria,2026-06-23 01:00,away,high,100.0,8.3333,home,N,-100.0
+S3_always_away,France vs. Iraq,2026-06-23 05:00,away,high,100.0,44.0601,home,N,-100.0
+S3_always_away,Norway vs. Senegal,2026-06-23 08:00,away,high,100.0,3.1287,home,N,-100.0
+S3_always_away,Jordan vs. Algeria,2026-06-23 11:00,away,high,100.0,1.5385,away,Y,53.85
+S3_always_away,Portugal vs. Uzbekistan,2026-06-24 01:00,away,high,100.0,20.0,home,N,-100.0
+S3_always_away,England vs. Ghana,2026-06-24 04:00,away,high,100.0,16.6667,draw,N,-100.0
+S3_always_away,Panama vs. Croatia,2026-06-24 07:00,away,high,100.0,1.4711,away,Y,47.11
+S3_always_away,Colombia vs. DR Congo,2026-06-24 10:00,away,high,100.0,7.2129,home,N,-100.0
+S3_always_away,Switzerland vs. Canada,2026-06-25 03:00,away,high,100.0,3.3333,home,N,-100.0
+S3_always_away,Bosnia-Herzegovina vs. Qatar,2026-06-25 03:00,away,high,100.0,8.3333,home,N,-100.0
+S3_always_away,Morocco vs. Haiti,2026-06-25 06:00,away,medium,100.0,16.6665,home,N,-100.0
+S3_always_away,Scotland vs. Brazil,2026-06-25 06:00,away,high,100.0,1.3333,away,Y,33.33
+S3_always_away,Czechia vs. Mexico,2026-06-25 09:00,away,high,100.0,1.8184,away,Y,81.84
+S3_always_away,South Africa vs. Korea Republic,2026-06-25 09:00,away,high,100.0,1.7242,home,N,-100.0
+S3_always_away,Ecuador vs. Germany,2026-06-26 04:00,away,high,100.0,1.6405,home,N,-100.0
+S3_always_away,Curaçao vs. Côte d'Ivoire,2026-06-26 04:00,away,high,100.0,1.2092,away,Y,20.92
+S3_always_away,Japan vs. Sweden,2026-06-26 07:00,away,high,100.0,3.5864,draw,N,-100.0
+S3_always_away,Tunisia vs. Netherlands,2026-06-26 07:00,away,high,100.0,1.1329,away,Y,13.29
+S3_always_away,Paraguay vs. Australia,2026-06-26 10:00,away,high,100.0,4.1667,draw,N,-100.0
+S3_always_away,Türkiye vs. United States,2026-06-26 10:00,away,high,100.0,1.9613,home,N,-100.0
+S3_always_away,Norway vs. France,2026-06-27 03:00,away,high,100.0,1.4297,away,Y,42.97
+S3_always_away,Senegal vs. Iraq,2026-06-27 03:00,away,high,100.0,12.5309,home,N,-100.0
+S3_always_away,Cabo Verde vs. Saudi Arabia,2026-06-27 08:00,away,high,100.0,2.6057,draw,N,-100.0
+S3_always_away,Uruguay vs. Spain,2026-06-27 08:00,away,high,100.0,1.6694,away,Y,66.94
+S3_always_away,Egypt vs. IR Iran,2026-06-27 11:00,away,high,100.0,3.4483,draw,N,-100.0
+S3_always_away,New Zealand vs. Belgium,2026-06-27 11:00,away,high,100.0,1.2229,away,Y,22.29
+S3_always_away,Panama vs. England,2026-06-28 05:00,away,high,100.0,1.1628,away,Y,16.28
+S3_always_away,Croatia vs. Ghana,2026-06-28 05:00,away,high,100.0,5.8837,home,N,-100.0
+S3_always_away,Colombia vs. Portugal,2026-06-28 07:30,away,high,100.0,1.9263,draw,N,-100.0
+S3_always_away,Algeria vs. Austria,2026-06-28 10:00,away,high,100.0,3.7037,draw,N,-100.0
+S3_always_away,South Africa vs. Canada,2026-06-29 03:00,away,high,100.0,1.8871,away,Y,88.71
+S3_always_away,Brazil vs. Japan,2026-06-30 01:00,away,high,100.0,5.3068,home,N,-100.0
+S3_always_away,Netherlands vs. Morocco,2026-06-30 09:00,away,high,100.0,3.4619,draw,N,-100.0
+S3_always_away,United States vs. Bosnia and Herzegovina,2026-07-02 08:00,away,high,100.0,10.0,home,N,-100.0
+S3_always_away,Germany vs. Paraguay,2026-06-30 04:30,away,high,100.0,12.0246,draw,N,-100.0
+S3_always_away,Côte d'Ivoire vs. Norway,2026-07-01 01:00,away,high,100.0,2.2276,away,Y,122.76
+S3_always_away,France vs. Sweden,2026-07-01 05:00,away,high,100.0,12.9882,home,N,-100.0
+S3_always_away,Australia vs. Egypt,2026-07-04 02:00,away,high,100.0,2.439,draw,N,-100.0
+S3_always_away,Argentina vs. Cabo Verde,2026-07-04 06:00,away,high,100.0,28.7089,draw,N,-100.0
+S3_always_away,Mexico vs. Ecuador,2026-07-01 09:00,away,high,100.0,4.3464,home,N,-100.0
+S3_always_away,England vs. DR Congo,2026-07-02 00:00,away,high,100.0,16.6667,home,N,-100.0
+S3_always_away,Belgium vs. Senegal,2026-07-02 04:00,away,high,100.0,3.8519,draw,N,-100.0
+S3_always_away,Spain vs. Austria,2026-07-03 03:00,away,high,100.0,13.8039,home,N,-100.0
+S3_always_away,Portugal vs. Croatia,2026-07-03 07:00,away,high,100.0,6.0609,home,N,-100.0
+S3_always_away,Switzerland vs. Algeria,2026-07-03 11:00,away,high,100.0,4.7059,home,N,-100.0
+S3_always_away,Colombia vs. Ghana,2026-07-04 09:30,away,high,100.0,9.0909,home,N,-100.0
+S3_always_away,Canada vs. Morocco,2026-07-05 01:00,away,high,100.0,1.8182,away,Y,81.82
+S3_always_away,Paraguay vs. France,2026-07-05 05:00,away,high,100.0,1.2056,away,Y,20.56
+S3_always_away,Brazil vs. Norway,2026-07-06 04:00,away,high,100.0,5.0002,away,Y,400.02
+S3_always_away,Mexico vs. England,2026-07-06 08:00,away,high,100.0,2.634,away,Y,163.4
+S3_always_away,United States vs. Belgium,2026-07-07 08:00,away,high,100.0,2.8573,away,Y,185.73
+S3_always_away,Portugal vs. Spain,2026-07-07 03:00,away,high,100.0,1.961,away,Y,96.1
+S3_always_away,Argentina vs. Egypt,2026-07-08 00:00,away,high,100.0,12.506,home,N,-100.0
+S3_always_away,Switzerland vs. Colombia,2026-07-08 04:00,away,high,100.0,2.3811,draw,N,-100.0
+S3_always_away,France vs. Morocco,2026-07-10 04:00,away,high,100.0,7.0357,home,N,-100.0
+S3_always_away,Norway vs. England,2026-07-12 05:00,away,high,100.0,1.9048,draw,N,-100.0
+S3_always_away,Spain vs. Belgium,2026-07-11 03:00,away,high,100.0,6.1898,home,N,-100.0
+S3_always_away,Argentina vs. Switzerland,2026-07-12 09:00,away,high,100.0,6.3528,draw,N,-100.0
+S3_always_away,France vs. Spain,2026-07-15 03:00,away,high,100.0,3.3333,away,Y,233.33
+S3_always_away,England vs. Argentina,2026-07-16 03:00,away,high,100.0,3.2058,away,Y,220.58
+S3_always_away,France vs. England,2026-07-19 05:00,away,high,100.0,4.3478,away,Y,334.78
+S3_always_away,Spain vs. Argentina,2026-07-20 03:00,away,high,100.0,3.8099,draw,N,-100.0
+S4_spread_3way,Mexico vs. South Africa,2026-06-12 03:00,home,high,33.33,1.4299,home,Y,14.33
+S4_spread_3way,Mexico vs. South Africa,2026-06-12 03:00,draw,high,33.33,4.8216,home,N,-33.33
+S4_spread_3way,Mexico vs. South Africa,2026-06-12 03:00,away,high,33.33,9.0982,home,N,-33.33
+S4_spread_3way,Korea Republic vs. Czechia,2026-06-12 10:00,home,high,33.33,2.6349,home,Y,54.5
+S4_spread_3way,Korea Republic vs. Czechia,2026-06-12 10:00,draw,high,33.33,3.125,home,N,-33.33
+S4_spread_3way,Korea Republic vs. Czechia,2026-06-12 10:00,away,high,33.33,3.1276,home,N,-33.33
+S4_spread_3way,Canada vs. Bosnia-Herzegovina,2026-06-13 03:00,home,high,33.33,1.852,draw,N,-33.33
+S4_spread_3way,Canada vs. Bosnia-Herzegovina,2026-06-13 03:00,draw,high,33.33,3.5715,draw,Y,85.72
+S4_spread_3way,Canada vs. Bosnia-Herzegovina,2026-06-13 03:00,away,high,33.33,5.0,draw,N,-33.33
+S4_spread_3way,United States vs. Paraguay,2026-06-13 09:00,home,high,33.33,2.1295,home,Y,37.65
+S4_spread_3way,United States vs. Paraguay,2026-06-13 09:00,draw,high,33.33,3.3333,home,N,-33.33
+S4_spread_3way,United States vs. Paraguay,2026-06-13 09:00,away,high,33.33,4.2163,home,N,-33.33
+S4_spread_3way,Qatar vs. Switzerland,2026-06-14 03:00,home,high,33.33,16.6667,draw,N,-33.33
+S4_spread_3way,Qatar vs. Switzerland,2026-06-14 03:00,draw,high,33.33,7.6923,draw,Y,223.08
+S4_spread_3way,Qatar vs. Switzerland,2026-06-14 03:00,away,high,33.33,1.2052,draw,N,-33.33
+S4_spread_3way,Brazil vs. Morocco,2026-06-14 06:00,home,high,33.33,1.6951,draw,N,-33.33
+S4_spread_3way,Brazil vs. Morocco,2026-06-14 06:00,draw,high,33.33,3.8462,draw,Y,94.87
+S4_spread_3way,Brazil vs. Morocco,2026-06-14 06:00,away,high,33.33,5.8842,draw,N,-33.33
+S4_spread_3way,Haiti vs. Scotland,2026-06-14 09:00,home,high,33.33,6.25,away,N,-33.33
+S4_spread_3way,Haiti vs. Scotland,2026-06-14 09:00,draw,high,33.33,4.7619,away,N,-33.33
+S4_spread_3way,Haiti vs. Scotland,2026-06-14 09:00,away,high,33.33,1.5908,away,Y,19.69
+S4_spread_3way,Australia vs. Türkiye,2026-06-14 12:00,home,high,33.33,5.5556,home,Y,151.85
+S4_spread_3way,Australia vs. Türkiye,2026-06-14 12:00,draw,high,33.33,3.8462,home,N,-33.33
+S4_spread_3way,Australia vs. Türkiye,2026-06-14 12:00,away,high,33.33,1.7544,home,N,-33.33
+S4_spread_3way,Germany vs. Curaçao,2026-06-15 01:00,home,high,33.33,1.0566,home,Y,1.89
+S4_spread_3way,Germany vs. Curaçao,2026-06-15 01:00,draw,high,33.33,27.5936,home,N,-33.33
+S4_spread_3way,Germany vs. Curaçao,2026-06-15 01:00,away,high,33.33,41.9995,home,N,-33.33
+S4_spread_3way,Netherlands vs. Japan,2026-06-15 04:00,home,high,33.33,2.1744,draw,N,-33.33
+S4_spread_3way,Netherlands vs. Japan,2026-06-15 04:00,draw,high,33.33,3.4515,draw,Y,81.72
+S4_spread_3way,Netherlands vs. Japan,2026-06-15 04:00,away,high,33.33,3.7148,draw,N,-33.33
+S4_spread_3way,Côte d'Ivoire vs. Ecuador,2026-06-15 07:00,home,high,33.33,3.5754,home,Y,85.85
+S4_spread_3way,Côte d'Ivoire vs. Ecuador,2026-06-15 07:00,draw,high,33.33,2.9412,home,N,-33.33
+S4_spread_3way,Côte d'Ivoire vs. Ecuador,2026-06-15 07:00,away,high,33.33,2.5643,home,N,-33.33
+S4_spread_3way,Sweden vs. Tunisia,2026-06-15 10:00,home,high,33.33,1.9612,home,Y,32.04
+S4_spread_3way,Sweden vs. Tunisia,2026-06-15 10:00,draw,high,33.33,3.4501,home,N,-33.33
+S4_spread_3way,Sweden vs. Tunisia,2026-06-15 10:00,away,high,33.33,4.8013,home,N,-33.33
+S4_spread_3way,Spain vs. Cabo Verde,2026-06-16 00:00,home,high,33.33,1.0754,draw,N,-33.33
+S4_spread_3way,Spain vs. Cabo Verde,2026-06-16 00:00,draw,high,33.33,18.7228,draw,Y,590.76
+S4_spread_3way,Spain vs. Cabo Verde,2026-06-16 00:00,away,high,33.33,43.4827,draw,N,-33.33
+S4_spread_3way,Belgium vs. Egypt,2026-06-16 03:00,home,high,33.33,1.5629,draw,N,-33.33
+S4_spread_3way,Belgium vs. Egypt,2026-06-16 03:00,draw,high,33.33,4.1689,draw,Y,105.63
+S4_spread_3way,Belgium vs. Egypt,2026-06-16 03:00,away,high,33.33,6.6708,draw,N,-33.33
+S4_spread_3way,Saudi Arabia vs. Uruguay,2026-06-16 06:00,home,high,33.33,8.3626,draw,N,-33.33
+S4_spread_3way,Saudi Arabia vs. Uruguay,2026-06-16 06:00,draw,high,33.33,4.548,draw,Y,118.27
+S4_spread_3way,Saudi Arabia vs. Uruguay,2026-06-16 06:00,away,high,33.33,1.4706,draw,N,-33.33
+S4_spread_3way,IR Iran vs. New Zealand,2026-06-16 09:00,home,high,33.33,1.8572,draw,N,-33.33
+S4_spread_3way,IR Iran vs. New Zealand,2026-06-16 09:00,draw,high,33.33,3.5752,draw,Y,85.84
+S4_spread_3way,IR Iran vs. New Zealand,2026-06-16 09:00,away,high,33.33,5.0005,draw,N,-33.33
+S4_spread_3way,France vs. Senegal,2026-06-17 03:00,home,high,33.33,1.4706,home,Y,15.69
+S4_spread_3way,France vs. Senegal,2026-06-17 03:00,draw,high,33.33,4.5553,home,N,-33.33
+S4_spread_3way,France vs. Senegal,2026-06-17 03:00,away,high,33.33,7.7925,home,N,-33.33
+S4_spread_3way,Iraq vs. Norway,2026-06-17 06:00,home,high,33.33,14.315,away,N,-33.33
+S4_spread_3way,Iraq vs. Norway,2026-06-17 06:00,draw,high,33.33,7.1731,away,N,-33.33
+S4_spread_3way,Iraq vs. Norway,2026-06-17 06:00,away,high,33.33,1.2346,away,Y,7.82
+S4_spread_3way,Argentina vs. Algeria,2026-06-17 09:00,home,high,33.33,1.5386,home,Y,17.95
+S4_spread_3way,Argentina vs. Algeria,2026-06-17 09:00,draw,high,33.33,4.3491,home,N,-33.33
+S4_spread_3way,Argentina vs. Algeria,2026-06-17 09:00,away,high,33.33,7.7008,home,N,-33.33
+S4_spread_3way,Austria vs. Jordan,2026-06-17 12:00,home,high,33.33,1.4287,home,Y,14.29
+S4_spread_3way,Austria vs. Jordan,2026-06-17 12:00,draw,high,33.33,5.1194,home,N,-33.33
+S4_spread_3way,Austria vs. Jordan,2026-06-17 12:00,away,high,33.33,9.0415,home,N,-33.33
+S4_spread_3way,Portugal vs. DR Congo,2026-06-18 01:00,home,high,33.33,1.2988,draw,N,-33.33
+S4_spread_3way,Portugal vs. DR Congo,2026-06-18 01:00,draw,high,33.33,5.8828,draw,Y,162.76
+S4_spread_3way,Portugal vs. DR Congo,2026-06-18 01:00,away,high,33.33,12.5,draw,N,-33.33
+S4_spread_3way,England vs. Croatia,2026-06-18 04:00,home,high,33.33,1.7243,home,Y,24.14
+S4_spread_3way,England vs. Croatia,2026-06-18 04:00,draw,high,33.33,3.8462,home,N,-33.33
+S4_spread_3way,England vs. Croatia,2026-06-18 04:00,away,high,33.33,5.5558,home,N,-33.33
+S4_spread_3way,Ghana vs. Panama,2026-06-18 07:00,home,high,33.33,2.4418,home,Y,48.06
+S4_spread_3way,Ghana vs. Panama,2026-06-18 07:00,draw,high,33.33,3.2263,home,N,-33.33
+S4_spread_3way,Ghana vs. Panama,2026-06-18 07:00,away,high,33.33,3.3362,home,N,-33.33
+S4_spread_3way,Uzbekistan vs. Colombia,2026-06-18 10:00,home,high,33.33,10.5034,away,N,-33.33
+S4_spread_3way,Uzbekistan vs. Colombia,2026-06-18 10:00,draw,high,33.33,5.0,away,N,-33.33
+S4_spread_3way,Uzbekistan vs. Colombia,2026-06-18 10:00,away,high,33.33,1.3957,away,Y,13.19
+S4_spread_3way,Czechia vs. South Africa,2026-06-19 00:00,home,high,33.33,1.8538,draw,N,-33.33
+S4_spread_3way,Czechia vs. South Africa,2026-06-19 00:00,draw,high,33.33,3.7038,draw,Y,90.13
+S4_spread_3way,Czechia vs. South Africa,2026-06-19 00:00,away,high,33.33,4.794,draw,N,-33.33
+S4_spread_3way,Switzerland vs. Bosnia-Herzegovina,2026-06-19 03:00,home,high,33.33,1.588,home,Y,19.6
+S4_spread_3way,Switzerland vs. Bosnia-Herzegovina,2026-06-19 03:00,draw,high,33.33,4.1736,home,N,-33.33
+S4_spread_3way,Switzerland vs. Bosnia-Herzegovina,2026-06-19 03:00,away,high,33.33,6.6705,home,N,-33.33
+S4_spread_3way,Canada vs. Qatar,2026-06-19 06:00,home,high,33.33,1.3166,home,Y,10.55
+S4_spread_3way,Canada vs. Qatar,2026-06-19 06:00,draw,high,33.33,5.8827,home,N,-33.33
+S4_spread_3way,Canada vs. Qatar,2026-06-19 06:00,away,high,33.33,11.1111,home,N,-33.33
+S4_spread_3way,Mexico vs. Korea Republic,2026-06-19 09:00,home,high,33.33,2.0835,home,Y,36.12
+S4_spread_3way,Mexico vs. Korea Republic,2026-06-19 09:00,draw,high,33.33,3.3334,home,N,-33.33
+S4_spread_3way,Mexico vs. Korea Republic,2026-06-19 09:00,away,high,33.33,4.1669,home,N,-33.33
+S4_spread_3way,United States vs. Australia,2026-06-20 03:00,home,high,33.33,1.6726,home,Y,22.42
+S4_spread_3way,United States vs. Australia,2026-06-20 03:00,draw,high,33.33,4.3777,home,N,-33.33
+S4_spread_3way,United States vs. Australia,2026-06-20 03:00,away,high,33.33,5.2643,home,N,-33.33
+S4_spread_3way,Scotland vs. Morocco,2026-06-20 06:00,home,high,33.33,6.25,away,N,-33.33
+S4_spread_3way,Scotland vs. Morocco,2026-06-20 06:00,draw,high,33.33,3.7046,away,N,-33.33
+S4_spread_3way,Scotland vs. Morocco,2026-06-20 06:00,away,high,33.33,1.6668,away,Y,22.23
+S4_spread_3way,Brazil vs. Haiti,2026-06-20 08:30,home,high,33.33,1.1239,home,Y,4.13
+S4_spread_3way,Brazil vs. Haiti,2026-06-20 08:30,draw,high,33.33,12.7793,home,N,-33.33
+S4_spread_3way,Brazil vs. Haiti,2026-06-20 08:30,away,high,33.33,23.3032,home,N,-33.33
+S4_spread_3way,Türkiye vs. Paraguay,2026-06-20 11:00,home,high,33.33,2.0795,away,N,-33.33
+S4_spread_3way,Türkiye vs. Paraguay,2026-06-20 11:00,draw,high,33.33,3.4483,away,N,-33.33
+S4_spread_3way,Türkiye vs. Paraguay,2026-06-20 11:00,away,high,33.33,4.1697,away,Y,105.66
+S4_spread_3way,Netherlands vs. Sweden,2026-06-21 01:00,home,high,33.33,1.7246,home,Y,24.15
+S4_spread_3way,Netherlands vs. Sweden,2026-06-21 01:00,draw,high,33.33,4.1667,home,N,-33.33
+S4_spread_3way,Netherlands vs. Sweden,2026-06-21 01:00,away,high,33.33,4.7622,home,N,-33.33
+S4_spread_3way,Germany vs. Côte d'Ivoire,2026-06-21 04:00,home,high,33.33,1.4497,home,Y,14.99
+S4_spread_3way,Germany vs. Côte d'Ivoire,2026-06-21 04:00,draw,high,33.33,5.2478,home,N,-33.33
+S4_spread_3way,Germany vs. Côte d'Ivoire,2026-06-21 04:00,away,high,33.33,8.222,home,N,-33.33
+S4_spread_3way,Ecuador vs. Curaçao,2026-06-21 08:00,home,high,33.33,1.1765,draw,N,-33.33
+S4_spread_3way,Ecuador vs. Curaçao,2026-06-21 08:00,draw,high,33.33,9.0909,draw,Y,269.7
+S4_spread_3way,Ecuador vs. Curaçao,2026-06-21 08:00,away,high,33.33,17.8673,draw,N,-33.33
+S4_spread_3way,Tunisia vs. Japan,2026-06-21 12:00,home,high,33.33,9.0958,away,N,-33.33
+S4_spread_3way,Tunisia vs. Japan,2026-06-21 12:00,draw,high,33.33,4.7626,away,N,-33.33
+S4_spread_3way,Tunisia vs. Japan,2026-06-21 12:00,away,high,33.33,1.4426,away,Y,14.75
+S4_spread_3way,Spain vs. Saudi Arabia,2026-06-22 00:00,home,high,33.33,1.1111,home,Y,3.7
+S4_spread_3way,Spain vs. Saudi Arabia,2026-06-22 00:00,draw,high,33.33,12.5,home,N,-33.33
+S4_spread_3way,Spain vs. Saudi Arabia,2026-06-22 00:00,away,high,33.33,27.027,home,N,-33.33
+S4_spread_3way,Belgium vs. IR Iran,2026-06-22 03:00,home,high,33.33,1.429,draw,N,-33.33
+S4_spread_3way,Belgium vs. IR Iran,2026-06-22 03:00,draw,high,33.33,5.003,draw,Y,133.43
+S4_spread_3way,Belgium vs. IR Iran,2026-06-22 03:00,away,high,33.33,9.0909,draw,N,-33.33
+S4_spread_3way,Uruguay vs. Cabo Verde,2026-06-22 06:00,home,high,33.33,1.4287,draw,N,-33.33
+S4_spread_3way,Uruguay vs. Cabo Verde,2026-06-22 06:00,draw,high,33.33,4.5455,draw,Y,118.18
+S4_spread_3way,Uruguay vs. Cabo Verde,2026-06-22 06:00,away,high,33.33,10.0,draw,N,-33.33
+S4_spread_3way,New Zealand vs. Egypt,2026-06-22 09:00,home,high,33.33,6.2607,away,N,-33.33
+S4_spread_3way,New Zealand vs. Egypt,2026-06-22 09:00,draw,high,33.33,4.1667,away,N,-33.33
+S4_spread_3way,New Zealand vs. Egypt,2026-06-22 09:00,away,high,33.33,1.6129,away,Y,20.43
+S4_spread_3way,Argentina vs. Austria,2026-06-23 01:00,home,high,33.33,1.4707,home,Y,15.69
+S4_spread_3way,Argentina vs. Austria,2026-06-23 01:00,draw,high,33.33,4.5815,home,N,-33.33
+S4_spread_3way,Argentina vs. Austria,2026-06-23 01:00,away,high,33.33,8.3333,home,N,-33.33
+S4_spread_3way,France vs. Iraq,2026-06-23 05:00,home,high,33.33,1.087,home,Y,2.9
+S4_spread_3way,France vs. Iraq,2026-06-23 05:00,draw,high,33.33,14.2857,home,N,-33.33
+S4_spread_3way,France vs. Iraq,2026-06-23 05:00,away,high,33.33,44.0601,home,N,-33.33
+S4_spread_3way,Norway vs. Senegal,2026-06-23 08:00,home,high,33.33,2.3811,home,Y,46.04
+S4_spread_3way,Norway vs. Senegal,2026-06-23 08:00,draw,high,33.33,3.4483,home,N,-33.33
+S4_spread_3way,Norway vs. Senegal,2026-06-23 08:00,away,high,33.33,3.1287,home,N,-33.33
+S4_spread_3way,Jordan vs. Algeria,2026-06-23 11:00,home,high,33.33,7.1429,away,N,-33.33
+S4_spread_3way,Jordan vs. Algeria,2026-06-23 11:00,draw,high,33.33,4.4618,away,N,-33.33
+S4_spread_3way,Jordan vs. Algeria,2026-06-23 11:00,away,high,33.33,1.5385,away,Y,17.95
+S4_spread_3way,Portugal vs. Uzbekistan,2026-06-24 01:00,home,high,33.33,1.1629,home,Y,5.43
+S4_spread_3way,Portugal vs. Uzbekistan,2026-06-24 01:00,draw,high,33.33,9.0919,home,N,-33.33
+S4_spread_3way,Portugal vs. Uzbekistan,2026-06-24 01:00,away,high,33.33,20.0,home,N,-33.33
+S4_spread_3way,England vs. Ghana,2026-06-24 04:00,home,high,33.33,1.1907,draw,N,-33.33
+S4_spread_3way,England vs. Ghana,2026-06-24 04:00,draw,high,33.33,7.6923,draw,Y,223.08
+S4_spread_3way,England vs. Ghana,2026-06-24 04:00,away,high,33.33,16.6667,draw,N,-33.33
+S4_spread_3way,Panama vs. Croatia,2026-06-24 07:00,home,high,33.33,8.3333,away,N,-33.33
+S4_spread_3way,Panama vs. Croatia,2026-06-24 07:00,draw,high,33.33,4.7637,away,N,-33.33
+S4_spread_3way,Panama vs. Croatia,2026-06-24 07:00,away,high,33.33,1.4711,away,Y,15.7
+S4_spread_3way,Colombia vs. DR Congo,2026-06-24 10:00,home,high,33.33,1.5631,home,Y,18.77
+S4_spread_3way,Colombia vs. DR Congo,2026-06-24 10:00,draw,high,33.33,4.1682,home,N,-33.33
+S4_spread_3way,Colombia vs. DR Congo,2026-06-24 10:00,away,high,33.33,7.2129,home,N,-33.33
+S4_spread_3way,Switzerland vs. Canada,2026-06-25 03:00,home,high,33.33,2.5662,home,Y,52.21
+S4_spread_3way,Switzerland vs. Canada,2026-06-25 03:00,draw,high,33.33,3.0813,home,N,-33.33
+S4_spread_3way,Switzerland vs. Canada,2026-06-25 03:00,away,high,33.33,3.3333,home,N,-33.33
+S4_spread_3way,Bosnia-Herzegovina vs. Qatar,2026-06-25 03:00,home,high,33.33,1.389,home,Y,12.97
+S4_spread_3way,Bosnia-Herzegovina vs. Qatar,2026-06-25 03:00,draw,high,33.33,5.8824,home,N,-33.33
+S4_spread_3way,Bosnia-Herzegovina vs. Qatar,2026-06-25 03:00,away,high,33.33,8.3333,home,N,-33.33
+S4_spread_3way,Morocco vs. Haiti,2026-06-25 06:00,home,high,33.33,1.2195,home,Y,7.32
+S4_spread_3way,Morocco vs. Haiti,2026-06-25 06:00,draw,high,33.33,7.1429,home,N,-33.33
+S4_spread_3way,Morocco vs. Haiti,2026-06-25 06:00,away,medium,33.33,16.6665,home,N,-33.33
+S4_spread_3way,Scotland vs. Brazil,2026-06-25 06:00,home,high,33.33,11.1152,away,N,-33.33
+S4_spread_3way,Scotland vs. Brazil,2026-06-25 06:00,draw,high,33.33,5.8824,away,N,-33.33
+S4_spread_3way,Scotland vs. Brazil,2026-06-25 06:00,away,high,33.33,1.3333,away,Y,11.11
+S4_spread_3way,Czechia vs. Mexico,2026-06-25 09:00,home,high,33.33,4.5522,away,N,-33.33
+S4_spread_3way,Czechia vs. Mexico,2026-06-25 09:00,draw,high,33.33,4.1667,away,N,-33.33
+S4_spread_3way,Czechia vs. Mexico,2026-06-25 09:00,away,high,33.33,1.8184,away,Y,27.28
+S4_spread_3way,South Africa vs. Korea Republic,2026-06-25 09:00,home,high,33.33,5.8921,home,Y,163.07
+S4_spread_3way,South Africa vs. Korea Republic,2026-06-25 09:00,draw,high,33.33,3.8462,home,N,-33.33
+S4_spread_3way,South Africa vs. Korea Republic,2026-06-25 09:00,away,high,33.33,1.7242,home,N,-33.33
+S4_spread_3way,Ecuador vs. Germany,2026-06-26 04:00,home,high,33.33,5.2242,home,Y,140.81
+S4_spread_3way,Ecuador vs. Germany,2026-06-26 04:00,draw,high,33.33,4.9228,home,N,-33.33
+S4_spread_3way,Ecuador vs. Germany,2026-06-26 04:00,away,high,33.33,1.6405,home,N,-33.33
+S4_spread_3way,Curaçao vs. Côte d'Ivoire,2026-06-26 04:00,home,high,33.33,16.6824,away,N,-33.33
+S4_spread_3way,Curaçao vs. Côte d'Ivoire,2026-06-26 04:00,draw,high,33.33,8.4425,away,N,-33.33
+S4_spread_3way,Curaçao vs. Côte d'Ivoire,2026-06-26 04:00,away,high,33.33,1.2092,away,Y,6.97
+S4_spread_3way,Japan vs. Sweden,2026-06-26 07:00,home,high,33.33,2.2612,draw,N,-33.33
+S4_spread_3way,Japan vs. Sweden,2026-06-26 07:00,draw,high,33.33,3.5587,draw,Y,85.29
+S4_spread_3way,Japan vs. Sweden,2026-06-26 07:00,away,high,33.33,3.5864,draw,N,-33.33
+S4_spread_3way,Tunisia vs. Netherlands,2026-06-26 07:00,home,high,33.33,31.4668,away,N,-33.33
+S4_spread_3way,Tunisia vs. Netherlands,2026-06-26 07:00,draw,high,33.33,11.1111,away,N,-33.33
+S4_spread_3way,Tunisia vs. Netherlands,2026-06-26 07:00,away,high,33.33,1.1329,away,Y,4.43
+S4_spread_3way,Paraguay vs. Australia,2026-06-26 10:00,home,high,33.33,2.7027,draw,N,-33.33
+S4_spread_3way,Paraguay vs. Australia,2026-06-26 10:00,draw,high,33.33,2.3921,draw,Y,46.4
+S4_spread_3way,Paraguay vs. Australia,2026-06-26 10:00,away,high,33.33,4.1667,draw,N,-33.33
+S4_spread_3way,Türkiye vs. United States,2026-06-26 10:00,home,high,33.33,3.7881,home,Y,92.94
+S4_spread_3way,Türkiye vs. United States,2026-06-26 10:00,draw,high,33.33,4.348,home,N,-33.33
+S4_spread_3way,Türkiye vs. United States,2026-06-26 10:00,away,high,33.33,1.9613,home,N,-33.33
+S4_spread_3way,Norway vs. France,2026-06-27 03:00,home,high,33.33,7.6952,away,N,-33.33
+S4_spread_3way,Norway vs. France,2026-06-27 03:00,draw,high,33.33,5.5572,away,N,-33.33
+S4_spread_3way,Norway vs. France,2026-06-27 03:00,away,high,33.33,1.4297,away,Y,14.32
+S4_spread_3way,Senegal vs. Iraq,2026-06-27 03:00,home,high,33.33,1.2657,home,Y,8.86
+S4_spread_3way,Senegal vs. Iraq,2026-06-27 03:00,draw,medium,33.33,7.1429,home,N,-33.33
+S4_spread_3way,Senegal vs. Iraq,2026-06-27 03:00,away,high,33.33,12.5309,home,N,-33.33
+S4_spread_3way,Cabo Verde vs. Saudi Arabia,2026-06-27 08:00,home,high,33.33,3.0339,draw,N,-33.33
+S4_spread_3way,Cabo Verde vs. Saudi Arabia,2026-06-27 08:00,draw,high,33.33,3.449,draw,Y,81.63
+S4_spread_3way,Cabo Verde vs. Saudi Arabia,2026-06-27 08:00,away,high,33.33,2.6057,draw,N,-33.33
+S4_spread_3way,Uruguay vs. Spain,2026-06-27 08:00,home,high,33.33,6.666,away,N,-33.33
+S4_spread_3way,Uruguay vs. Spain,2026-06-27 08:00,draw,high,33.33,3.8461,away,N,-33.33
+S4_spread_3way,Uruguay vs. Spain,2026-06-27 08:00,away,high,33.33,1.6694,away,Y,22.31
+S4_spread_3way,Egypt vs. IR Iran,2026-06-27 11:00,home,high,33.33,2.7027,draw,N,-33.33
+S4_spread_3way,Egypt vs. IR Iran,2026-06-27 11:00,draw,high,33.33,2.7778,draw,Y,59.26
+S4_spread_3way,Egypt vs. IR Iran,2026-06-27 11:00,away,high,33.33,3.4483,draw,N,-33.33
+S4_spread_3way,New Zealand vs. Belgium,2026-06-27 11:00,home,medium,33.33,13.8965,away,N,-33.33
+S4_spread_3way,New Zealand vs. Belgium,2026-06-27 11:00,draw,high,33.33,8.4208,away,N,-33.33
+S4_spread_3way,New Zealand vs. Belgium,2026-06-27 11:00,away,high,33.33,1.2229,away,Y,7.43
+S4_spread_3way,Panama vs. England,2026-06-28 05:00,home,high,33.33,20.0,away,N,-33.33
+S4_spread_3way,Panama vs. England,2026-06-28 05:00,draw,high,33.33,9.0989,away,N,-33.33
+S4_spread_3way,Panama vs. England,2026-06-28 05:00,away,high,33.33,1.1628,away,Y,5.43
+S4_spread_3way,Croatia vs. Ghana,2026-06-28 05:00,home,high,33.33,1.8196,home,Y,27.32
+S4_spread_3way,Croatia vs. Ghana,2026-06-28 05:00,draw,high,33.33,3.3305,home,N,-33.33
+S4_spread_3way,Croatia vs. Ghana,2026-06-28 05:00,away,high,33.33,5.8837,home,N,-33.33
+S4_spread_3way,Colombia vs. Portugal,2026-06-28 07:30,home,high,33.33,3.847,draw,N,-33.33
+S4_spread_3way,Colombia vs. Portugal,2026-06-28 07:30,draw,high,33.33,4.1672,draw,Y,105.57
+S4_spread_3way,Colombia vs. Portugal,2026-06-28 07:30,away,high,33.33,1.9263,draw,N,-33.33
+S4_spread_3way,Algeria vs. Austria,2026-06-28 10:00,home,high,33.33,3.5714,draw,N,-33.33
+S4_spread_3way,Algeria vs. Austria,2026-06-28 10:00,draw,high,33.33,2.1303,draw,Y,37.68
+S4_spread_3way,Algeria vs. Austria,2026-06-28 10:00,away,high,33.33,3.7037,draw,N,-33.33
+S4_spread_3way,South Africa vs. Canada,2026-06-29 03:00,home,high,33.33,5.557,away,N,-33.33
+S4_spread_3way,South Africa vs. Canada,2026-06-29 03:00,draw,high,33.33,3.4485,away,N,-33.33
+S4_spread_3way,South Africa vs. Canada,2026-06-29 03:00,away,high,33.33,1.8871,away,Y,29.57
+S4_spread_3way,Brazil vs. Japan,2026-06-30 01:00,home,high,33.33,1.7858,home,Y,26.19
+S4_spread_3way,Brazil vs. Japan,2026-06-30 01:00,draw,high,33.33,3.7039,home,N,-33.33
+S4_spread_3way,Brazil vs. Japan,2026-06-30 01:00,away,high,33.33,5.3068,home,N,-33.33
+S4_spread_3way,Netherlands vs. Morocco,2026-06-30 09:00,home,high,33.33,2.4392,draw,N,-33.33
+S4_spread_3way,Netherlands vs. Morocco,2026-06-30 09:00,draw,high,33.33,3.1286,draw,Y,70.95
+S4_spread_3way,Netherlands vs. Morocco,2026-06-30 09:00,away,high,33.33,3.4619,draw,N,-33.33
+S4_spread_3way,United States vs. Bosnia and Herzegovina,2026-07-02 08:00,home,high,33.33,1.3908,home,Y,13.03
+S4_spread_3way,United States vs. Bosnia and Herzegovina,2026-07-02 08:00,draw,high,33.33,5.2632,home,N,-33.33
+S4_spread_3way,United States vs. Bosnia and Herzegovina,2026-07-02 08:00,away,high,33.33,10.0,home,N,-33.33
+S4_spread_3way,Germany vs. Paraguay,2026-06-30 04:30,home,high,33.33,1.3514,draw,N,-33.33
+S4_spread_3way,Germany vs. Paraguay,2026-06-30 04:30,draw,high,33.33,5.265,draw,Y,142.17
+S4_spread_3way,Germany vs. Paraguay,2026-06-30 04:30,away,high,33.33,12.0246,draw,N,-33.33
+S4_spread_3way,Côte d'Ivoire vs. Norway,2026-07-01 01:00,home,high,33.33,3.8451,away,N,-33.33
+S4_spread_3way,Côte d'Ivoire vs. Norway,2026-07-01 01:00,draw,high,33.33,3.4483,away,N,-33.33
+S4_spread_3way,Côte d'Ivoire vs. Norway,2026-07-01 01:00,away,high,33.33,2.2276,away,Y,40.92
+S4_spread_3way,France vs. Sweden,2026-07-01 05:00,home,high,33.33,1.2821,home,Y,9.4
+S4_spread_3way,France vs. Sweden,2026-07-01 05:00,draw,high,33.33,6.2638,home,N,-33.33
+S4_spread_3way,France vs. Sweden,2026-07-01 05:00,away,high,33.33,12.9882,home,N,-33.33
+S4_spread_3way,Australia vs. Egypt,2026-07-04 02:00,home,high,33.33,3.7037,draw,N,-33.33
+S4_spread_3way,Australia vs. Egypt,2026-07-04 02:00,draw,high,33.33,2.9412,draw,Y,64.71
+S4_spread_3way,Australia vs. Egypt,2026-07-04 02:00,away,high,33.33,2.439,draw,N,-33.33
+S4_spread_3way,Argentina vs. Cabo Verde,2026-07-04 06:00,home,high,33.33,1.1628,draw,N,-33.33
+S4_spread_3way,Argentina vs. Cabo Verde,2026-07-04 06:00,draw,high,33.33,9.0922,draw,Y,269.74
+S4_spread_3way,Argentina vs. Cabo Verde,2026-07-04 06:00,away,high,33.33,28.7089,draw,N,-33.33
+S4_spread_3way,Mexico vs. Ecuador,2026-07-01 09:00,home,high,33.33,2.2728,home,Y,42.43
+S4_spread_3way,Mexico vs. Ecuador,2026-07-01 09:00,draw,high,33.33,2.9412,home,N,-33.33
+S4_spread_3way,Mexico vs. Ecuador,2026-07-01 09:00,away,high,33.33,4.3464,home,N,-33.33
+S4_spread_3way,England vs. DR Congo,2026-07-02 00:00,home,high,33.33,1.3034,home,Y,10.11
+S4_spread_3way,England vs. DR Congo,2026-07-02 00:00,draw,high,33.33,5.3207,home,N,-33.33
+S4_spread_3way,England vs. DR Congo,2026-07-02 00:00,away,high,33.33,16.6667,home,N,-33.33
+S4_spread_3way,Belgium vs. Senegal,2026-07-02 04:00,home,high,33.33,2.1852,draw,N,-33.33
+S4_spread_3way,Belgium vs. Senegal,2026-07-02 04:00,draw,high,33.33,3.3333,draw,Y,77.78
+S4_spread_3way,Belgium vs. Senegal,2026-07-02 04:00,away,high,33.33,3.8519,draw,N,-33.33
+S4_spread_3way,Spain vs. Austria,2026-07-03 03:00,home,high,33.33,1.3202,home,Y,10.67
+S4_spread_3way,Spain vs. Austria,2026-07-03 03:00,draw,high,33.33,5.9696,home,N,-33.33
+S4_spread_3way,Spain vs. Austria,2026-07-03 03:00,away,high,33.33,13.8039,home,N,-33.33
+S4_spread_3way,Portugal vs. Croatia,2026-07-03 07:00,home,high,33.33,1.7316,home,Y,24.39
+S4_spread_3way,Portugal vs. Croatia,2026-07-03 07:00,draw,high,33.33,3.78,home,N,-33.33
+S4_spread_3way,Portugal vs. Croatia,2026-07-03 07:00,away,high,33.33,6.0609,home,N,-33.33
+S4_spread_3way,Switzerland vs. Algeria,2026-07-03 11:00,home,high,33.33,2.0413,home,Y,34.71
+S4_spread_3way,Switzerland vs. Algeria,2026-07-03 11:00,draw,high,33.33,3.2787,home,N,-33.33
+S4_spread_3way,Switzerland vs. Algeria,2026-07-03 11:00,away,high,33.33,4.7059,home,N,-33.33
+S4_spread_3way,Colombia vs. Ghana,2026-07-04 09:30,home,high,33.33,1.451,home,Y,15.03
+S4_spread_3way,Colombia vs. Ghana,2026-07-04 09:30,draw,high,33.33,4.5502,home,N,-33.33
+S4_spread_3way,Colombia vs. Ghana,2026-07-04 09:30,away,high,33.33,9.0909,home,N,-33.33
+S4_spread_3way,Canada vs. Morocco,2026-07-05 01:00,home,high,33.33,5.5556,away,N,-33.33
+S4_spread_3way,Canada vs. Morocco,2026-07-05 01:00,draw,high,33.33,3.4483,away,N,-33.33
+S4_spread_3way,Canada vs. Morocco,2026-07-05 01:00,away,high,33.33,1.8182,away,Y,27.27
+S4_spread_3way,Paraguay vs. France,2026-07-05 05:00,home,high,33.33,20.0237,away,N,-33.33
+S4_spread_3way,Paraguay vs. France,2026-07-05 05:00,draw,high,33.33,7.1463,away,N,-33.33
+S4_spread_3way,Paraguay vs. France,2026-07-05 05:00,away,high,33.33,1.2056,away,Y,6.85
+S4_spread_3way,Brazil vs. Norway,2026-07-06 04:00,home,high,33.33,1.8188,away,N,-33.33
+S4_spread_3way,Brazil vs. Norway,2026-07-06 04:00,draw,high,33.33,3.7037,away,N,-33.33
+S4_spread_3way,Brazil vs. Norway,2026-07-06 04:00,away,high,33.33,5.0002,away,Y,133.34
+S4_spread_3way,Mexico vs. England,2026-07-06 08:00,home,high,33.33,3.1304,away,N,-33.33
+S4_spread_3way,Mexico vs. England,2026-07-06 08:00,draw,high,33.33,3.1299,away,N,-33.33
+S4_spread_3way,Mexico vs. England,2026-07-06 08:00,away,high,33.33,2.634,away,Y,54.47
+S4_spread_3way,United States vs. Belgium,2026-07-07 08:00,home,high,33.33,2.7033,away,N,-33.33
+S4_spread_3way,United States vs. Belgium,2026-07-07 08:00,draw,high,33.33,3.4483,away,N,-33.33
+S4_spread_3way,United States vs. Belgium,2026-07-07 08:00,away,high,33.33,2.8573,away,Y,61.91
+S4_spread_3way,Portugal vs. Spain,2026-07-07 03:00,home,high,33.33,4.1668,away,N,-33.33
+S4_spread_3way,Portugal vs. Spain,2026-07-07 03:00,draw,high,33.33,3.5714,away,N,-33.33
+S4_spread_3way,Portugal vs. Spain,2026-07-07 03:00,away,high,33.33,1.961,away,Y,32.03
+S4_spread_3way,Argentina vs. Egypt,2026-07-08 00:00,home,high,33.33,1.3579,home,Y,11.93
+S4_spread_3way,Argentina vs. Egypt,2026-07-08 00:00,draw,high,33.33,5.0,home,N,-33.33
+S4_spread_3way,Argentina vs. Egypt,2026-07-08 00:00,away,high,33.33,12.506,home,N,-33.33
+S4_spread_3way,Switzerland vs. Colombia,2026-07-08 04:00,home,high,33.33,3.7039,draw,N,-33.33
+S4_spread_3way,Switzerland vs. Colombia,2026-07-08 04:00,draw,high,33.33,3.0303,draw,Y,67.68
+S4_spread_3way,Switzerland vs. Colombia,2026-07-08 04:00,away,high,33.33,2.3811,draw,N,-33.33
+S4_spread_3way,France vs. Morocco,2026-07-10 04:00,home,high,33.33,1.6327,home,Y,21.09
+S4_spread_3way,France vs. Morocco,2026-07-10 04:00,draw,high,33.33,3.9613,home,N,-33.33
+S4_spread_3way,France vs. Morocco,2026-07-10 04:00,away,high,33.33,7.0357,home,N,-33.33
+S4_spread_3way,Norway vs. England,2026-07-12 05:00,home,high,33.33,4.3488,draw,N,-33.33
+S4_spread_3way,Norway vs. England,2026-07-12 05:00,draw,high,33.33,4.041,draw,Y,101.37
+S4_spread_3way,Norway vs. England,2026-07-12 05:00,away,high,33.33,1.9048,draw,N,-33.33
+S4_spread_3way,Spain vs. Belgium,2026-07-11 03:00,home,high,33.33,1.6546,home,Y,21.82
+S4_spread_3way,Spain vs. Belgium,2026-07-11 03:00,draw,high,33.33,4.0473,home,N,-33.33
+S4_spread_3way,Spain vs. Belgium,2026-07-11 03:00,away,high,33.33,6.1898,home,N,-33.33
+S4_spread_3way,Argentina vs. Switzerland,2026-07-12 09:00,home,high,33.33,1.7409,draw,N,-33.33
+S4_spread_3way,Argentina vs. Switzerland,2026-07-12 09:00,draw,high,33.33,3.6365,draw,Y,87.88
+S4_spread_3way,Argentina vs. Switzerland,2026-07-12 09:00,away,high,33.33,6.3528,draw,N,-33.33
+S4_spread_3way,France vs. Spain,2026-07-15 03:00,home,high,33.33,2.6501,away,N,-33.33
+S4_spread_3way,France vs. Spain,2026-07-15 03:00,draw,high,33.33,3.1008,away,N,-33.33
+S4_spread_3way,France vs. Spain,2026-07-15 03:00,away,high,33.33,3.3333,away,Y,77.78
+S4_spread_3way,England vs. Argentina,2026-07-16 03:00,home,high,33.33,2.7593,away,N,-33.33
+S4_spread_3way,England vs. Argentina,2026-07-16 03:00,draw,high,33.33,2.9851,away,N,-33.33
+S4_spread_3way,England vs. Argentina,2026-07-16 03:00,away,high,33.33,3.2058,away,Y,73.53
+S4_spread_3way,France vs. England,2026-07-19 05:00,home,high,33.33,1.7872,away,N,-33.33
+S4_spread_3way,France vs. England,2026-07-19 05:00,draw,high,33.33,4.3478,away,N,-33.33
+S4_spread_3way,France vs. England,2026-07-19 05:00,away,high,33.33,4.3478,away,Y,111.59
+S4_spread_3way,Spain vs. Argentina,2026-07-20 03:00,home,high,33.33,2.3396,draw,N,-33.33
+S4_spread_3way,Spain vs. Argentina,2026-07-20 03:00,draw,high,33.33,3.125,draw,Y,70.83
+S4_spread_3way,Spain vs. Argentina,2026-07-20 03:00,away,high,33.33,3.8099,draw,N,-33.33
+S5_value_draw,Qatar vs. Switzerland,2026-06-14 03:00,draw,high,100.0,7.6923,draw,Y,669.23
+S5_value_draw,Germany vs. Curaçao,2026-06-15 01:00,draw,high,100.0,27.5936,home,N,-100.0
+S5_value_draw,Spain vs. Cabo Verde,2026-06-16 00:00,draw,high,100.0,18.7228,draw,Y,1772.28
+S5_value_draw,Iraq vs. Norway,2026-06-17 06:00,draw,high,100.0,7.1731,away,N,-100.0
+S5_value_draw,Austria vs. Jordan,2026-06-17 12:00,draw,high,100.0,5.1194,home,N,-100.0
+S5_value_draw,Portugal vs. DR Congo,2026-06-18 01:00,draw,high,100.0,5.8828,draw,Y,488.28
+S5_value_draw,Uzbekistan vs. Colombia,2026-06-18 10:00,draw,high,100.0,5.0,away,N,-100.0
+S5_value_draw,Canada vs. Qatar,2026-06-19 06:00,draw,high,100.0,5.8827,home,N,-100.0
+S5_value_draw,Brazil vs. Haiti,2026-06-20 08:30,draw,high,100.0,12.7793,home,N,-100.0
+S5_value_draw,Germany vs. Côte d'Ivoire,2026-06-21 04:00,draw,high,100.0,5.2478,home,N,-100.0
+S5_value_draw,Ecuador vs. Curaçao,2026-06-21 08:00,draw,high,100.0,9.0909,draw,Y,809.09
+S5_value_draw,Spain vs. Saudi Arabia,2026-06-22 00:00,draw,high,100.0,12.5,home,N,-100.0
+S5_value_draw,Belgium vs. IR Iran,2026-06-22 03:00,draw,high,100.0,5.003,draw,Y,400.3
+S5_value_draw,France vs. Iraq,2026-06-23 05:00,draw,high,100.0,14.2857,home,N,-100.0
+S5_value_draw,Portugal vs. Uzbekistan,2026-06-24 01:00,draw,high,100.0,9.0919,home,N,-100.0
+S5_value_draw,England vs. Ghana,2026-06-24 04:00,draw,high,100.0,7.6923,draw,Y,669.23
+S5_value_draw,Bosnia-Herzegovina vs. Qatar,2026-06-25 03:00,draw,high,100.0,5.8824,home,N,-100.0
+S5_value_draw,Morocco vs. Haiti,2026-06-25 06:00,draw,high,100.0,7.1429,home,N,-100.0
+S5_value_draw,Scotland vs. Brazil,2026-06-25 06:00,draw,high,100.0,5.8824,away,N,-100.0
+S5_value_draw,Curaçao vs. Côte d'Ivoire,2026-06-26 04:00,draw,high,100.0,8.4425,away,N,-100.0
+S5_value_draw,Tunisia vs. Netherlands,2026-06-26 07:00,draw,high,100.0,11.1111,away,N,-100.0
+S5_value_draw,Norway vs. France,2026-06-27 03:00,draw,high,100.0,5.5572,away,N,-100.0
+S5_value_draw,Senegal vs. Iraq,2026-06-27 03:00,draw,medium,100.0,7.1429,home,N,-100.0
+S5_value_draw,New Zealand vs. Belgium,2026-06-27 11:00,draw,high,100.0,8.4208,away,N,-100.0
+S5_value_draw,Panama vs. England,2026-06-28 05:00,draw,high,100.0,9.0989,away,N,-100.0
+S5_value_draw,United States vs. Bosnia and Herzegovina,2026-07-02 08:00,draw,high,100.0,5.2632,home,N,-100.0
+S5_value_draw,Germany vs. Paraguay,2026-06-30 04:30,draw,high,100.0,5.265,draw,Y,426.5
+S5_value_draw,France vs. Sweden,2026-07-01 05:00,draw,high,100.0,6.2638,home,N,-100.0
+S5_value_draw,Argentina vs. Cabo Verde,2026-07-04 06:00,draw,high,100.0,9.0922,draw,Y,809.22
+S5_value_draw,England vs. DR Congo,2026-07-02 00:00,draw,high,100.0,5.3207,home,N,-100.0
+S5_value_draw,Spain vs. Austria,2026-07-03 03:00,draw,high,100.0,5.9696,home,N,-100.0
+S5_value_draw,Paraguay vs. France,2026-07-05 05:00,draw,high,100.0,7.1463,away,N,-100.0
+S5_value_draw,Argentina vs. Egypt,2026-07-08 00:00,draw,high,100.0,5.0,home,N,-100.0
+S6_favorite,Mexico vs. South Africa,2026-06-12 03:00,home,high,100.0,1.4299,home,Y,42.99
+S6_favorite,Korea Republic vs. Czechia,2026-06-12 10:00,home,high,100.0,2.6349,home,Y,163.49
+S6_favorite,Canada vs. Bosnia-Herzegovina,2026-06-13 03:00,home,high,100.0,1.852,draw,N,-100.0
+S6_favorite,United States vs. Paraguay,2026-06-13 09:00,home,high,100.0,2.1295,home,Y,112.95
+S6_favorite,Qatar vs. Switzerland,2026-06-14 03:00,away,high,100.0,1.2052,draw,N,-100.0
+S6_favorite,Brazil vs. Morocco,2026-06-14 06:00,home,high,100.0,1.6951,draw,N,-100.0
+S6_favorite,Haiti vs. Scotland,2026-06-14 09:00,away,high,100.0,1.5908,away,Y,59.08
+S6_favorite,Australia vs. Türkiye,2026-06-14 12:00,away,high,100.0,1.7544,home,N,-100.0
+S6_favorite,Germany vs. Curaçao,2026-06-15 01:00,home,high,100.0,1.0566,home,Y,5.66
+S6_favorite,Netherlands vs. Japan,2026-06-15 04:00,home,high,100.0,2.1744,draw,N,-100.0
+S6_favorite,Côte d'Ivoire vs. Ecuador,2026-06-15 07:00,away,high,100.0,2.5643,home,N,-100.0
+S6_favorite,Sweden vs. Tunisia,2026-06-15 10:00,home,high,100.0,1.9612,home,Y,96.12
+S6_favorite,Spain vs. Cabo Verde,2026-06-16 00:00,home,high,100.0,1.0754,draw,N,-100.0
+S6_favorite,Belgium vs. Egypt,2026-06-16 03:00,home,high,100.0,1.5629,draw,N,-100.0
+S6_favorite,Saudi Arabia vs. Uruguay,2026-06-16 06:00,away,high,100.0,1.4706,draw,N,-100.0
+S6_favorite,IR Iran vs. New Zealand,2026-06-16 09:00,home,high,100.0,1.8572,draw,N,-100.0
+S6_favorite,France vs. Senegal,2026-06-17 03:00,home,high,100.0,1.4706,home,Y,47.06
+S6_favorite,Iraq vs. Norway,2026-06-17 06:00,away,high,100.0,1.2346,away,Y,23.46
+S6_favorite,Argentina vs. Algeria,2026-06-17 09:00,home,high,100.0,1.5386,home,Y,53.86
+S6_favorite,Austria vs. Jordan,2026-06-17 12:00,home,high,100.0,1.4287,home,Y,42.87
+S6_favorite,Portugal vs. DR Congo,2026-06-18 01:00,home,high,100.0,1.2988,draw,N,-100.0
+S6_favorite,England vs. Croatia,2026-06-18 04:00,home,high,100.0,1.7243,home,Y,72.43
+S6_favorite,Ghana vs. Panama,2026-06-18 07:00,home,high,100.0,2.4418,home,Y,144.18
+S6_favorite,Uzbekistan vs. Colombia,2026-06-18 10:00,away,high,100.0,1.3957,away,Y,39.57
+S6_favorite,Czechia vs. South Africa,2026-06-19 00:00,home,high,100.0,1.8538,draw,N,-100.0
+S6_favorite,Switzerland vs. Bosnia-Herzegovina,2026-06-19 03:00,home,high,100.0,1.588,home,Y,58.8
+S6_favorite,Canada vs. Qatar,2026-06-19 06:00,home,high,100.0,1.3166,home,Y,31.66
+S6_favorite,Mexico vs. Korea Republic,2026-06-19 09:00,home,high,100.0,2.0835,home,Y,108.35
+S6_favorite,United States vs. Australia,2026-06-20 03:00,home,high,100.0,1.6726,home,Y,67.26
+S6_favorite,Scotland vs. Morocco,2026-06-20 06:00,away,high,100.0,1.6668,away,Y,66.68
+S6_favorite,Brazil vs. Haiti,2026-06-20 08:30,home,high,100.0,1.1239,home,Y,12.39
+S6_favorite,Türkiye vs. Paraguay,2026-06-20 11:00,home,high,100.0,2.0795,away,N,-100.0
+S6_favorite,Netherlands vs. Sweden,2026-06-21 01:00,home,high,100.0,1.7246,home,Y,72.46
+S6_favorite,Germany vs. Côte d'Ivoire,2026-06-21 04:00,home,high,100.0,1.4497,home,Y,44.97
+S6_favorite,Ecuador vs. Curaçao,2026-06-21 08:00,home,high,100.0,1.1765,draw,N,-100.0
+S6_favorite,Tunisia vs. Japan,2026-06-21 12:00,away,high,100.0,1.4426,away,Y,44.26
+S6_favorite,Spain vs. Saudi Arabia,2026-06-22 00:00,home,high,100.0,1.1111,home,Y,11.11
+S6_favorite,Belgium vs. IR Iran,2026-06-22 03:00,home,high,100.0,1.429,draw,N,-100.0
+S6_favorite,Uruguay vs. Cabo Verde,2026-06-22 06:00,home,high,100.0,1.4287,draw,N,-100.0
+S6_favorite,New Zealand vs. Egypt,2026-06-22 09:00,away,high,100.0,1.6129,away,Y,61.29
+S6_favorite,Argentina vs. Austria,2026-06-23 01:00,home,high,100.0,1.4707,home,Y,47.07
+S6_favorite,France vs. Iraq,2026-06-23 05:00,home,high,100.0,1.087,home,Y,8.7
+S6_favorite,Norway vs. Senegal,2026-06-23 08:00,home,high,100.0,2.3811,home,Y,138.11
+S6_favorite,Jordan vs. Algeria,2026-06-23 11:00,away,high,100.0,1.5385,away,Y,53.85
+S6_favorite,Portugal vs. Uzbekistan,2026-06-24 01:00,home,high,100.0,1.1629,home,Y,16.29
+S6_favorite,England vs. Ghana,2026-06-24 04:00,home,high,100.0,1.1907,draw,N,-100.0
+S6_favorite,Panama vs. Croatia,2026-06-24 07:00,away,high,100.0,1.4711,away,Y,47.11
+S6_favorite,Colombia vs. DR Congo,2026-06-24 10:00,home,high,100.0,1.5631,home,Y,56.31
+S6_favorite,Switzerland vs. Canada,2026-06-25 03:00,home,high,100.0,2.5662,home,Y,156.62
+S6_favorite,Bosnia-Herzegovina vs. Qatar,2026-06-25 03:00,home,high,100.0,1.389,home,Y,38.9
+S6_favorite,Morocco vs. Haiti,2026-06-25 06:00,home,high,100.0,1.2195,home,Y,21.95
+S6_favorite,Scotland vs. Brazil,2026-06-25 06:00,away,high,100.0,1.3333,away,Y,33.33
+S6_favorite,Czechia vs. Mexico,2026-06-25 09:00,away,high,100.0,1.8184,away,Y,81.84
+S6_favorite,South Africa vs. Korea Republic,2026-06-25 09:00,away,high,100.0,1.7242,home,N,-100.0
+S6_favorite,Ecuador vs. Germany,2026-06-26 04:00,away,high,100.0,1.6405,home,N,-100.0
+S6_favorite,Curaçao vs. Côte d'Ivoire,2026-06-26 04:00,away,high,100.0,1.2092,away,Y,20.92
+S6_favorite,Japan vs. Sweden,2026-06-26 07:00,home,high,100.0,2.2612,draw,N,-100.0
+S6_favorite,Tunisia vs. Netherlands,2026-06-26 07:00,away,high,100.0,1.1329,away,Y,13.29
+S6_favorite,Paraguay vs. Australia,2026-06-26 10:00,draw,high,100.0,2.3921,draw,Y,139.21
+S6_favorite,Türkiye vs. United States,2026-06-26 10:00,away,high,100.0,1.9613,home,N,-100.0
+S6_favorite,Norway vs. France,2026-06-27 03:00,away,high,100.0,1.4297,away,Y,42.97
+S6_favorite,Senegal vs. Iraq,2026-06-27 03:00,home,high,100.0,1.2657,home,Y,26.57
+S6_favorite,Cabo Verde vs. Saudi Arabia,2026-06-27 08:00,away,high,100.0,2.6057,draw,N,-100.0
+S6_favorite,Uruguay vs. Spain,2026-06-27 08:00,away,high,100.0,1.6694,away,Y,66.94
+S6_favorite,Egypt vs. IR Iran,2026-06-27 11:00,home,high,100.0,2.7027,draw,N,-100.0
+S6_favorite,New Zealand vs. Belgium,2026-06-27 11:00,away,high,100.0,1.2229,away,Y,22.29
+S6_favorite,Panama vs. England,2026-06-28 05:00,away,high,100.0,1.1628,away,Y,16.28
+S6_favorite,Croatia vs. Ghana,2026-06-28 05:00,home,high,100.0,1.8196,home,Y,81.96
+S6_favorite,Colombia vs. Portugal,2026-06-28 07:30,away,high,100.0,1.9263,draw,N,-100.0
+S6_favorite,Algeria vs. Austria,2026-06-28 10:00,draw,high,100.0,2.1303,draw,Y,113.03
+S6_favorite,South Africa vs. Canada,2026-06-29 03:00,away,high,100.0,1.8871,away,Y,88.71
+S6_favorite,Brazil vs. Japan,2026-06-30 01:00,home,high,100.0,1.7858,home,Y,78.58
+S6_favorite,Netherlands vs. Morocco,2026-06-30 09:00,home,high,100.0,2.4392,draw,N,-100.0
+S6_favorite,United States vs. Bosnia and Herzegovina,2026-07-02 08:00,home,high,100.0,1.3908,home,Y,39.08
+S6_favorite,Germany vs. Paraguay,2026-06-30 04:30,home,high,100.0,1.3514,draw,N,-100.0
+S6_favorite,Côte d'Ivoire vs. Norway,2026-07-01 01:00,away,high,100.0,2.2276,away,Y,122.76
+S6_favorite,France vs. Sweden,2026-07-01 05:00,home,high,100.0,1.2821,home,Y,28.21
+S6_favorite,Australia vs. Egypt,2026-07-04 02:00,away,high,100.0,2.439,draw,N,-100.0
+S6_favorite,Argentina vs. Cabo Verde,2026-07-04 06:00,home,high,100.0,1.1628,draw,N,-100.0
+S6_favorite,Mexico vs. Ecuador,2026-07-01 09:00,home,high,100.0,2.2728,home,Y,127.28
+S6_favorite,England vs. DR Congo,2026-07-02 00:00,home,high,100.0,1.3034,home,Y,30.34
+S6_favorite,Belgium vs. Senegal,2026-07-02 04:00,home,high,100.0,2.1852,draw,N,-100.0
+S6_favorite,Spain vs. Austria,2026-07-03 03:00,home,high,100.0,1.3202,home,Y,32.02
+S6_favorite,Portugal vs. Croatia,2026-07-03 07:00,home,high,100.0,1.7316,home,Y,73.16
+S6_favorite,Switzerland vs. Algeria,2026-07-03 11:00,home,high,100.0,2.0413,home,Y,104.13
+S6_favorite,Colombia vs. Ghana,2026-07-04 09:30,home,high,100.0,1.451,home,Y,45.1
+S6_favorite,Canada vs. Morocco,2026-07-05 01:00,away,high,100.0,1.8182,away,Y,81.82
+S6_favorite,Paraguay vs. France,2026-07-05 05:00,away,high,100.0,1.2056,away,Y,20.56
+S6_favorite,Brazil vs. Norway,2026-07-06 04:00,home,high,100.0,1.8188,away,N,-100.0
+S6_favorite,Mexico vs. England,2026-07-06 08:00,away,high,100.0,2.634,away,Y,163.4
+S6_favorite,United States vs. Belgium,2026-07-07 08:00,home,high,100.0,2.7033,away,N,-100.0
+S6_favorite,Portugal vs. Spain,2026-07-07 03:00,away,high,100.0,1.961,away,Y,96.1
+S6_favorite,Argentina vs. Egypt,2026-07-08 00:00,home,high,100.0,1.3579,home,Y,35.79
+S6_favorite,Switzerland vs. Colombia,2026-07-08 04:00,away,high,100.0,2.3811,draw,N,-100.0
+S6_favorite,France vs. Morocco,2026-07-10 04:00,home,high,100.0,1.6327,home,Y,63.27
+S6_favorite,Norway vs. England,2026-07-12 05:00,away,high,100.0,1.9048,draw,N,-100.0
+S6_favorite,Spain vs. Belgium,2026-07-11 03:00,home,high,100.0,1.6546,home,Y,65.46
+S6_favorite,Argentina vs. Switzerland,2026-07-12 09:00,home,high,100.0,1.7409,draw,N,-100.0
+S6_favorite,France vs. Spain,2026-07-15 03:00,home,high,100.0,2.6501,away,N,-100.0
+S6_favorite,England vs. Argentina,2026-07-16 03:00,home,high,100.0,2.7593,away,N,-100.0
+S6_favorite,France vs. England,2026-07-19 05:00,home,high,100.0,1.7872,away,N,-100.0
+S6_favorite,Spain vs. Argentina,2026-07-20 03:00,home,high,100.0,2.3396,draw,N,-100.0
+S7_underdog,Mexico vs. South Africa,2026-06-12 03:00,away,high,100.0,9.0982,home,N,-100.0
+S7_underdog,Korea Republic vs. Czechia,2026-06-12 10:00,away,high,100.0,3.1276,home,N,-100.0
+S7_underdog,Canada vs. Bosnia-Herzegovina,2026-06-13 03:00,away,high,100.0,5.0,draw,N,-100.0
+S7_underdog,United States vs. Paraguay,2026-06-13 09:00,away,high,100.0,4.2163,home,N,-100.0
+S7_underdog,Qatar vs. Switzerland,2026-06-14 03:00,home,high,100.0,16.6667,draw,N,-100.0
+S7_underdog,Brazil vs. Morocco,2026-06-14 06:00,away,high,100.0,5.8842,draw,N,-100.0
+S7_underdog,Haiti vs. Scotland,2026-06-14 09:00,home,high,100.0,6.25,away,N,-100.0
+S7_underdog,Australia vs. Türkiye,2026-06-14 12:00,home,high,100.0,5.5556,home,Y,455.56
+S7_underdog,Germany vs. Curaçao,2026-06-15 01:00,away,high,100.0,41.9995,home,N,-100.0
+S7_underdog,Netherlands vs. Japan,2026-06-15 04:00,away,high,100.0,3.7148,draw,N,-100.0
+S7_underdog,Côte d'Ivoire vs. Ecuador,2026-06-15 07:00,home,high,100.0,3.5754,home,Y,257.54
+S7_underdog,Sweden vs. Tunisia,2026-06-15 10:00,away,high,100.0,4.8013,home,N,-100.0
+S7_underdog,Spain vs. Cabo Verde,2026-06-16 00:00,away,high,100.0,43.4827,draw,N,-100.0
+S7_underdog,Belgium vs. Egypt,2026-06-16 03:00,away,high,100.0,6.6708,draw,N,-100.0
+S7_underdog,Saudi Arabia vs. Uruguay,2026-06-16 06:00,home,high,100.0,8.3626,draw,N,-100.0
+S7_underdog,IR Iran vs. New Zealand,2026-06-16 09:00,away,high,100.0,5.0005,draw,N,-100.0
+S7_underdog,France vs. Senegal,2026-06-17 03:00,away,high,100.0,7.7925,home,N,-100.0
+S7_underdog,Iraq vs. Norway,2026-06-17 06:00,home,high,100.0,14.315,away,N,-100.0
+S7_underdog,Argentina vs. Algeria,2026-06-17 09:00,away,high,100.0,7.7008,home,N,-100.0
+S7_underdog,Austria vs. Jordan,2026-06-17 12:00,away,high,100.0,9.0415,home,N,-100.0
+S7_underdog,Portugal vs. DR Congo,2026-06-18 01:00,away,high,100.0,12.5,draw,N,-100.0
+S7_underdog,England vs. Croatia,2026-06-18 04:00,away,high,100.0,5.5558,home,N,-100.0
+S7_underdog,Ghana vs. Panama,2026-06-18 07:00,away,high,100.0,3.3362,home,N,-100.0
+S7_underdog,Uzbekistan vs. Colombia,2026-06-18 10:00,home,high,100.0,10.5034,away,N,-100.0
+S7_underdog,Czechia vs. South Africa,2026-06-19 00:00,away,high,100.0,4.794,draw,N,-100.0
+S7_underdog,Switzerland vs. Bosnia-Herzegovina,2026-06-19 03:00,away,high,100.0,6.6705,home,N,-100.0
+S7_underdog,Canada vs. Qatar,2026-06-19 06:00,away,high,100.0,11.1111,home,N,-100.0
+S7_underdog,Mexico vs. Korea Republic,2026-06-19 09:00,away,high,100.0,4.1669,home,N,-100.0
+S7_underdog,United States vs. Australia,2026-06-20 03:00,away,high,100.0,5.2643,home,N,-100.0
+S7_underdog,Scotland vs. Morocco,2026-06-20 06:00,home,high,100.0,6.25,away,N,-100.0
+S7_underdog,Brazil vs. Haiti,2026-06-20 08:30,away,high,100.0,23.3032,home,N,-100.0
+S7_underdog,Türkiye vs. Paraguay,2026-06-20 11:00,away,high,100.0,4.1697,away,Y,316.97
+S7_underdog,Netherlands vs. Sweden,2026-06-21 01:00,away,high,100.0,4.7622,home,N,-100.0
+S7_underdog,Germany vs. Côte d'Ivoire,2026-06-21 04:00,away,high,100.0,8.222,home,N,-100.0
+S7_underdog,Ecuador vs. Curaçao,2026-06-21 08:00,away,high,100.0,17.8673,draw,N,-100.0
+S7_underdog,Tunisia vs. Japan,2026-06-21 12:00,home,high,100.0,9.0958,away,N,-100.0
+S7_underdog,Spain vs. Saudi Arabia,2026-06-22 00:00,away,high,100.0,27.027,home,N,-100.0
+S7_underdog,Belgium vs. IR Iran,2026-06-22 03:00,away,high,100.0,9.0909,draw,N,-100.0
+S7_underdog,Uruguay vs. Cabo Verde,2026-06-22 06:00,away,high,100.0,10.0,draw,N,-100.0
+S7_underdog,New Zealand vs. Egypt,2026-06-22 09:00,home,high,100.0,6.2607,away,N,-100.0
+S7_underdog,Argentina vs. Austria,2026-06-23 01:00,away,high,100.0,8.3333,home,N,-100.0
+S7_underdog,France vs. Iraq,2026-06-23 05:00,away,high,100.0,44.0601,home,N,-100.0
+S7_underdog,Norway vs. Senegal,2026-06-23 08:00,draw,high,100.0,3.4483,home,N,-100.0
+S7_underdog,Jordan vs. Algeria,2026-06-23 11:00,home,high,100.0,7.1429,away,N,-100.0
+S7_underdog,Portugal vs. Uzbekistan,2026-06-24 01:00,away,high,100.0,20.0,home,N,-100.0
+S7_underdog,England vs. Ghana,2026-06-24 04:00,away,high,100.0,16.6667,draw,N,-100.0
+S7_underdog,Panama vs. Croatia,2026-06-24 07:00,home,high,100.0,8.3333,away,N,-100.0
+S7_underdog,Colombia vs. DR Congo,2026-06-24 10:00,away,high,100.0,7.2129,home,N,-100.0
+S7_underdog,Switzerland vs. Canada,2026-06-25 03:00,away,high,100.0,3.3333,home,N,-100.0
+S7_underdog,Bosnia-Herzegovina vs. Qatar,2026-06-25 03:00,away,high,100.0,8.3333,home,N,-100.0
+S7_underdog,Morocco vs. Haiti,2026-06-25 06:00,away,medium,100.0,16.6665,home,N,-100.0
+S7_underdog,Scotland vs. Brazil,2026-06-25 06:00,home,high,100.0,11.1152,away,N,-100.0
+S7_underdog,Czechia vs. Mexico,2026-06-25 09:00,home,high,100.0,4.5522,away,N,-100.0
+S7_underdog,South Africa vs. Korea Republic,2026-06-25 09:00,home,high,100.0,5.8921,home,Y,489.21
+S7_underdog,Ecuador vs. Germany,2026-06-26 04:00,home,high,100.0,5.2242,home,Y,422.42
+S7_underdog,Curaçao vs. Côte d'Ivoire,2026-06-26 04:00,home,high,100.0,16.6824,away,N,-100.0
+S7_underdog,Japan vs. Sweden,2026-06-26 07:00,away,high,100.0,3.5864,draw,N,-100.0
+S7_underdog,Tunisia vs. Netherlands,2026-06-26 07:00,home,high,100.0,31.4668,away,N,-100.0
+S7_underdog,Paraguay vs. Australia,2026-06-26 10:00,away,high,100.0,4.1667,draw,N,-100.0
+S7_underdog,Türkiye vs. United States,2026-06-26 10:00,draw,high,100.0,4.348,home,N,-100.0
+S7_underdog,Norway vs. France,2026-06-27 03:00,home,high,100.0,7.6952,away,N,-100.0
+S7_underdog,Senegal vs. Iraq,2026-06-27 03:00,away,high,100.0,12.5309,home,N,-100.0
+S7_underdog,Cabo Verde vs. Saudi Arabia,2026-06-27 08:00,draw,high,100.0,3.449,draw,Y,244.9
+S7_underdog,Uruguay vs. Spain,2026-06-27 08:00,home,high,100.0,6.666,away,N,-100.0
+S7_underdog,Egypt vs. IR Iran,2026-06-27 11:00,away,high,100.0,3.4483,draw,N,-100.0
+S7_underdog,New Zealand vs. Belgium,2026-06-27 11:00,home,medium,100.0,13.8965,away,N,-100.0
+S7_underdog,Panama vs. England,2026-06-28 05:00,home,high,100.0,20.0,away,N,-100.0
+S7_underdog,Croatia vs. Ghana,2026-06-28 05:00,away,high,100.0,5.8837,home,N,-100.0
+S7_underdog,Colombia vs. Portugal,2026-06-28 07:30,draw,high,100.0,4.1672,draw,Y,316.72
+S7_underdog,Algeria vs. Austria,2026-06-28 10:00,away,high,100.0,3.7037,draw,N,-100.0
+S7_underdog,South Africa vs. Canada,2026-06-29 03:00,home,high,100.0,5.557,away,N,-100.0
+S7_underdog,Brazil vs. Japan,2026-06-30 01:00,away,high,100.0,5.3068,home,N,-100.0
+S7_underdog,Netherlands vs. Morocco,2026-06-30 09:00,away,high,100.0,3.4619,draw,N,-100.0
+S7_underdog,United States vs. Bosnia and Herzegovina,2026-07-02 08:00,away,high,100.0,10.0,home,N,-100.0
+S7_underdog,Germany vs. Paraguay,2026-06-30 04:30,away,high,100.0,12.0246,draw,N,-100.0
+S7_underdog,Côte d'Ivoire vs. Norway,2026-07-01 01:00,home,high,100.0,3.8451,away,N,-100.0
+S7_underdog,France vs. Sweden,2026-07-01 05:00,away,high,100.0,12.9882,home,N,-100.0
+S7_underdog,Australia vs. Egypt,2026-07-04 02:00,home,high,100.0,3.7037,draw,N,-100.0
+S7_underdog,Argentina vs. Cabo Verde,2026-07-04 06:00,away,high,100.0,28.7089,draw,N,-100.0
+S7_underdog,Mexico vs. Ecuador,2026-07-01 09:00,away,high,100.0,4.3464,home,N,-100.0
+S7_underdog,England vs. DR Congo,2026-07-02 00:00,away,high,100.0,16.6667,home,N,-100.0
+S7_underdog,Belgium vs. Senegal,2026-07-02 04:00,away,high,100.0,3.8519,draw,N,-100.0
+S7_underdog,Spain vs. Austria,2026-07-03 03:00,away,high,100.0,13.8039,home,N,-100.0
+S7_underdog,Portugal vs. Croatia,2026-07-03 07:00,away,high,100.0,6.0609,home,N,-100.0
+S7_underdog,Switzerland vs. Algeria,2026-07-03 11:00,away,high,100.0,4.7059,home,N,-100.0
+S7_underdog,Colombia vs. Ghana,2026-07-04 09:30,away,high,100.0,9.0909,home,N,-100.0
+S7_underdog,Canada vs. Morocco,2026-07-05 01:00,home,high,100.0,5.5556,away,N,-100.0
+S7_underdog,Paraguay vs. France,2026-07-05 05:00,home,high,100.0,20.0237,away,N,-100.0
+S7_underdog,Brazil vs. Norway,2026-07-06 04:00,away,high,100.0,5.0002,away,Y,400.02
+S7_underdog,Mexico vs. England,2026-07-06 08:00,home,high,100.0,3.1304,away,N,-100.0
+S7_underdog,United States vs. Belgium,2026-07-07 08:00,draw,high,100.0,3.4483,away,N,-100.0
+S7_underdog,Portugal vs. Spain,2026-07-07 03:00,home,high,100.0,4.1668,away,N,-100.0
+S7_underdog,Argentina vs. Egypt,2026-07-08 00:00,away,high,100.0,12.506,home,N,-100.0
+S7_underdog,Switzerland vs. Colombia,2026-07-08 04:00,home,high,100.0,3.7039,draw,N,-100.0
+S7_underdog,France vs. Morocco,2026-07-10 04:00,away,high,100.0,7.0357,home,N,-100.0
+S7_underdog,Norway vs. England,2026-07-12 05:00,home,high,100.0,4.3488,draw,N,-100.0
+S7_underdog,Spain vs. Belgium,2026-07-11 03:00,away,high,100.0,6.1898,home,N,-100.0
+S7_underdog,Argentina vs. Switzerland,2026-07-12 09:00,away,high,100.0,6.3528,draw,N,-100.0
+S7_underdog,France vs. Spain,2026-07-15 03:00,away,high,100.0,3.3333,away,Y,233.33
+S7_underdog,England vs. Argentina,2026-07-16 03:00,away,high,100.0,3.2058,away,Y,220.58
+S7_underdog,France vs. England,2026-07-19 05:00,draw,high,100.0,4.3478,away,N,-100.0
+S7_underdog,Spain vs. Argentina,2026-07-20 03:00,away,high,100.0,3.8099,draw,N,-100.0
